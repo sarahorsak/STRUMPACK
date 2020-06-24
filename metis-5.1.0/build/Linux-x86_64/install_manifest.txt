@@ -1,0 +1,8 @@
+/home/sorsak/STRUMPACK/metis-5.1.0/install/include/metis.h
+/home/sorsak/STRUMPACK/metis-5.1.0/install/lib/libmetis.a
+/home/sorsak/STRUMPACK/metis-5.1.0/install/bin/gpmetis
+/home/sorsak/STRUMPACK/metis-5.1.0/install/bin/ndmetis
+/home/sorsak/STRUMPACK/metis-5.1.0/install/bin/mpmetis
+/home/sorsak/STRUMPACK/metis-5.1.0/install/bin/m2gmetis
+/home/sorsak/STRUMPACK/metis-5.1.0/install/bin/graphchk
+/home/sorsak/STRUMPACK/metis-5.1.0/install/bin/cmpfillin

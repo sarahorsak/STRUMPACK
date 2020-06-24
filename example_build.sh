@@ -26,9 +26,9 @@ if [[ $(dnsdomainname) = "summit.olcf.ornl.gov" ]]; then
     export METIS_DIR=$HOME/local/metis-5.1.0/install
 
     # the following are optional
-    export SCOTCH_DIR=$HOME/local/scotch_6.0.9
-    export ParMETIS_DIR=$HOME/local/parmetis-4.0.3/install
-    export ButterflyPACK_DIR=$HOME/ButterflyPACK/install
+  #  export SCOTCH_DIR=$HOME/local/scotch_6.0.9
+  #  export ParMETIS_DIR=$HOME/local/parmetis-4.0.3/install
+  #  export ButterflyPACK_DIR=$HOME/ButterflyPACK/install
 
     cmake ../ \
           -DCMAKE_BUILD_TYPE=Release \
@@ -39,8 +39,10 @@ if [[ $(dnsdomainname) = "summit.olcf.ornl.gov" ]]; then
           -DTPL_BLAS_LIBRARIES="${OLCF_ESSL_ROOT}/lib64/libessl.so;${OLCF_NETLIB_LAPACK_ROOT}/lib64/libblas.so" \
           -DTPL_LAPACK_LIBRARIES="${OLCF_ESSL_ROOT}/lib64/libessl.so;${OLCF_NETLIB_LAPACK_ROOT}/lib64/liblapack.so" \
           -DTPL_SCALAPACK_LIBRARIES="${OLCF_NETLIB_SCALAPACK_ROOT}/lib/libscalapack.so" \
-          -DTPL_ENABLE_BPACK=ON \
+          -DTPL_ENABLE_BPACK=OFF \
           -DTPL_ENABLE_CUBLAS=ON \
+	-DTPL_ENABLE_PARMETIS=OFF \
+	-DTPL_ENABLE_SCOTCH=OFF \
           -DTPL_ENABLE_SLATE=OFF
 fi
 
@@ -66,10 +68,10 @@ if [[ $NERSC_HOST = "cori" ]]; then
             export METIS_DIR=$HOME/local/cori/gcc/metis-5.1.0/install
 
             # optional dependencies
-            export ParMETIS_DIR=$HOME/local/cori/gcc/parmetis-4.0.3/install
-            export SCOTCH_DIR=$HOME/local/cori/gcc/scotch_6.0.9
-            export ButterflyPACK_DIR=$HOME/cori/ButterflyPACK/install
-            export ZFP_DIR=$HOME/local/cori/gcc/zfp/install/
+    #        export ParMETIS_DIR=$HOME/local/cori/gcc/parmetis-4.0.3/install
+    #        export SCOTCH_DIR=$HOME/local/cori/gcc/scotch_6.0.9
+    #        export ButterflyPACK_DIR=$HOME/cori/ButterflyPACK/install
+    #        export ZFP_DIR=$HOME/local/cori/gcc/zfp/install/
         fi
     fi
 
@@ -93,12 +95,12 @@ if [[ $(hostname -s) = "pieterg-X8DA3" ]]; then
     export METIS_DIR=$HOME/local/metis-5.1.0/install
 
     # the following are optional
-    export SCOTCH_DIR=$HOME/local/scotch_6.0.4
-    export ParMETIS_DIR=$HOME/local/parmetis-4.0.3/install
-    export ZFP_DIR=$HOME/local/zfp-0.5.5/install
-    export ButterflyPACK_DIR=$HOME/LBL/STRUMPACK/ButterflyPACK/install/
-    export COMBBLAS_DIR=$HOME/local/combinatorial-blas-2.0/CombBLAS/install/
-    export COMBBLASAPP_DIR=$HOME/local/combinatorial-blas-2.0/CombBLAS/Applications/
+#    export SCOTCH_DIR=$HOME/local/scotch_6.0.4
+ #   export ParMETIS_DIR=$HOME/local/parmetis-4.0.3/install
+  #  export ZFP_DIR=$HOME/local/zfp-0.5.5/install
+   # export ButterflyPACK_DIR=$HOME/LBL/STRUMPACK/ButterflyPACK/install/
+   # export COMBBLAS_DIR=$HOME/local/combinatorial-blas-2.0/CombBLAS/install/
+   # export COMBBLASAPP_DIR=$HOME/local/combinatorial-blas-2.0/CombBLAS/Applications/
 
     cmake ../ \
           -DCMAKE_BUILD_TYPE=Debug \

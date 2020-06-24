@@ -119,6 +119,7 @@ METIS can be downloaded and installed as follows:
 > make install
 > export METIS_DIR=`pwd`/install
 
+
 STRUMPACK's CMake will then look at the environment variable
 $METIS_DIR, in $METIS_DIR/include for metis.h. Likewise, it will look
 in $METIS_DIR/lib for libmetis.

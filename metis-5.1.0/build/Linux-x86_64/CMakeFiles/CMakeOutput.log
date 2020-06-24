@@ -1,0 +1,648 @@
+The system is: Linux - 3.10.0-693.21.1.el7.x86_64 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /export/intel/inteloneapi/compiler/latest/linux/bin/intel64/icc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is Intel, found in "/home/sorsak/STRUMPACK/metis-5.1.0/build/Linux-x86_64/CMakeFiles/3.15.4/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/sorsak/STRUMPACK/metis-5.1.0/build/Linux-x86_64/CMakeFiles/3.15.4/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/sorsak/STRUMPACK/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_fc80f/fast && gmake[1]: Entering directory `/home/sorsak/STRUMPACK/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTC_fc80f.dir/build.make CMakeFiles/cmTC_fc80f.dir/build
+gmake[2]: Entering directory `/home/sorsak/STRUMPACK/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fc80f.dir/testCCompiler.c.o
+/export/intel/inteloneapi/compiler/latest/linux/bin/intel64/icc    -o CMakeFiles/cmTC_fc80f.dir/testCCompiler.c.o   -c /home/sorsak/STRUMPACK/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_fc80f
+/opt/ohpc/pub/utils/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fc80f.dir/link.txt --verbose=1
+/export/intel/inteloneapi/compiler/latest/linux/bin/intel64/icc      -rdynamic CMakeFiles/cmTC_fc80f.dir/testCCompiler.c.o  -o cmTC_fc80f 
+gmake[2]: Leaving directory `/home/sorsak/STRUMPACK/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/home/sorsak/STRUMPACK/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/sorsak/STRUMPACK/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_b70d5/fast && gmake[1]: Entering directory `/home/sorsak/STRUMPACK/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTC_b70d5.dir/build.make CMakeFiles/cmTC_b70d5.dir/build
+gmake[2]: Entering directory `/home/sorsak/STRUMPACK/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b70d5.dir/CMakeCCompilerABI.c.o
+/export/intel/inteloneapi/compiler/latest/linux/bin/intel64/icc   -v -o CMakeFiles/cmTC_b70d5.dir/CMakeCCompilerABI.c.o   -c /opt/ohpc/pub/utils/cmake/3.15.4/share/cmake-3.15/Modules/CMakeCCompilerABI.c
+icc version 19.1 (gcc version 4.8.5 compatibility)
+/export/intel/inteloneapi/compiler/2021.1-beta06/linux/bin/intel64/mcpcom    --target_efi2 --lang=c -_g -mP3OPT_inline_alloca -D__ICC=1910 -D__INTEL_COMPILER=1910 -D__INTEL_COMPILER_UPDATE=0 -D__PTRDIFF_TYPE__=long "-D__SIZE_TYPE__=unsigned long" -D__WCHAR_TYPE__=int "-D__WINT_TYPE__=unsigned int" "-D__INTMAX_TYPE__=long int" "-D__UINTMAX_TYPE__=long unsigned int" -D__LONG_MAX__=9223372036854775807L -D__QMSPP_ -D__OPTIMIZE__ -D__NO_MATH_INLINES -D__NO_STRING_INLINES -D__GNUC_GNU_INLINE__ -D__GNUC__=4 -D__GNUC_MINOR__=8 -D__GNUC_PATCHLEVEL__=5 -D__LP64__ -D_LP64 -D__GXX_ABI_VERSION=1002 "-D__USER_LABEL_PREFIX__= " -D__REGISTER_PREFIX__= -D__INTEL_RTTI__ -D__unix__ -D__unix -D__linux__ -D__linux -D__gnu_linux__ -B -Dunix -Dlinux "-_Asystem(unix)" -D__ELF__ -D__x86_64 -D__x86_64__ -D__amd64 -D__amd64__ "-_Acpu(x86_64)" "-_Amachine(x86_64)" -D__INTEL_COMPILER_BUILD_DATE=20200306 -D__INTEL_OFFLOAD -D__MMX__ -D__SSE__ -D__SSE_MATH__ -D__SSE2__ -D__SSE2_MATH__ -D__pentium4 -D__pentium4__ -D__tune_pentium4__ -_k -_8 -_l --has_new_stdarg_support -_a -_b --gnu_version=40805 -_W5 --openmp_simd --multibyte_chars -mGLOB_diag_suppress_sys --system_preinclude /usr/include/stdc-predef.h -I/export/intel/inteloneapi/pstl/include -I/export/intel/inteloneapi/vpl/latest/include -I/export/intel/inteloneapi/tbb/2021.1-beta06/env/../include -I/export/intel/inteloneapi/oneDNN/2021.1-beta06/cpu_dpcpp_gpu_dpcpp/include -I/export/intel/inteloneapi/mpi/2021.1-beta06//include -I/export/intel/inteloneapi/mkl/2021.1-beta06/include -I/export/intel/inteloneapi/ipp/latest/include -I/export/intel/inteloneapi/dpcpp-ct/2021.1-beta06/include -I/export/intel/inteloneapi/daal/latest/include -I/export/intel/inteloneapi/compiler/latest/linux/include --array_section --simd --simd_func --offload_mode=1 --offload_target_names=mic,MIC --offload_unique_string=icc1382597019c8xn9t -mGLOB_em64t=TRUE -mP1OPT_version=19.1-intel64 -mGLOB_diag_file=CMakeFiles/cmTC_b70d5.dir/CMakeCCompilerABI.c.diag -mGLOB_long_size_64 -mGLOB_routine_pointer_size_64 -mP1OPT_print_version=FALSE -mCG_use_gas_got_workaround=F -mP2OPT_align_option_used=TRUE -mGLOB_gcc_version=485 "-mGLOB_options_string=-v -o CMakeFiles/cmTC_b70d5.dir/CMakeCCompilerABI.c.o -c" -mGLOB_cxx_limited_range=FALSE -mCG_extend_parms=FALSE -mGLOB_compiler_bin_directory=/export/intel/inteloneapi/compiler/2021.1-beta06/linux/bin/intel64 -mGLOB_as_output_backup_file_name=/tmp/iccBA1DuAas_.s -mIPOPT_activate -mIPOPT_lite -mGLOB_uarch_tuning=0x0 -mGLOB_product_id_code=0x22006d93 -mCG_bnl_movbe=T -mP3OPT_use_mspp_call_convention -mP2OPT_subs_out_of_bound=FALSE -mP2OPT_disam_type_based_disam=2 -mP2OPT_disam_assume_ansi_c -mP2OPT_checked_disam_ansi_alias=TRUE -mGLOB_ansi_alias -mPGOPTI_value_profile_use=T -mP2OPT_il0_array_sections=TRUE -mGLOB_offload_mode=1 -mP2OPT_offload_unique_var_string=icc1382597019c8xn9t -mP2OPT_hlo_level=2 -mP2OPT_hlo -mP2OPT_hpo_rtt_control=0 -mIPOPT_args_in_regs=0 -mP2OPT_disam_assume_nonstd_intent_in=FALSE -mGLOB_imf_mapping_library=/export/intel/inteloneapi/compiler/2021.1-beta06/linux/bin/intel64/libiml_attr.so -mPGOPTI_gen_threadsafe_level=0 -mIPOPT_lto_object_enabled -mIPOPT_lto_object_value=1 -mIPOPT_obj_output_file_name=CMakeFiles/cmTC_b70d5.dir/CMakeCCompilerABI.c.o -mIPOPT_whole_archive_fixup_file_name=/tmp/iccwarchpNHspZ -mGLOB_linker_version=2.25.1 -mGLOB_linker=ld -mGLOB_driver_tempfile_name=/tmp/icctempfile1we5RG -mP3OPT_asm_target=P3OPT_ASM_TARGET_GAS -mGLOB_async_unwind_tables=TRUE -mGLOB_obj_output_file=CMakeFiles/cmTC_b70d5.dir/CMakeCCompilerABI.c.o -mGLOB_source_dialect=GLOB_SOURCE_DIALECT_C -mP1OPT_source_file_name=/opt/ohpc/pub/utils/cmake/3.15.4/share/cmake-3.15/Modules/CMakeCCompilerABI.c -mP1OPT_full_source_file_name=/opt/ohpc/pub/utils/cmake/3.15.4/share/cmake-3.15/Modules/CMakeCCompilerABI.c /opt/ohpc/pub/utils/cmake/3.15.4/share/cmake-3.15/Modules/CMakeCCompilerABI.c
+#include "..." search starts here:
+#include <...> search starts here:
+ /export/intel/inteloneapi/vpl/latest/include
+ /export/intel/inteloneapi/tbb/2021.1-beta06/env/../include
+ /export/intel/inteloneapi/oneDNN/2021.1-beta06/cpu_dpcpp_gpu_dpcpp/include
+ /export/intel/inteloneapi/mpi/2021.1-beta06//include
+ /export/intel/inteloneapi/mkl/2021.1-beta06/include
+ /export/intel/inteloneapi/ipp/latest/include
+ /export/intel/inteloneapi/dpcpp-ct/2021.1-beta06/include
+ /export/intel/inteloneapi/daal/latest/include
+ /export/intel/inteloneapi/compiler/latest/linux/include
+ /export/intel/inteloneapi/compiler/2021.1-beta06/linux/compiler/include/intel64
+ /export/intel/inteloneapi/compiler/2021.1-beta06/linux/compiler/include/icc
+ /export/intel/inteloneapi/compiler/2021.1-beta06/linux/compiler/include
+ /usr/local/include
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include
+ /usr/include/
+ /usr/include
+End of search list.
+Linking C executable cmTC_b70d5
+/opt/ohpc/pub/utils/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b70d5.dir/link.txt --verbose=1
+/export/intel/inteloneapi/compiler/latest/linux/bin/intel64/icc     -v -rdynamic CMakeFiles/cmTC_b70d5.dir/CMakeCCompilerABI.c.o  -o cmTC_b70d5 
+icc version 19.1 (gcc version 4.8.5 compatibility)
+/export/intel/inteloneapi/compiler/2021.1-beta06/linux/bin/intel64/mcpcom    -mGLOB_em64t=TRUE -mP1OPT_version=19.1-intel64 -mGLOB_diag_file=CMakeFiles/cmTC_b70d5.dir/CMakeCCompilerABI.c.diag -mGLOB_long_size_64 -mGLOB_routine_pointer_size_64 -mP1OPT_print_version=FALSE -mCG_use_gas_got_workaround=F -mP2OPT_align_option_used=TRUE -mGLOB_gcc_version=485 "-mGLOB_options_string=-v -rdynamic -o cmTC_b70d5" -mGLOB_cxx_limited_range=FALSE -mCG_extend_parms=FALSE -mGLOB_compiler_bin_directory=/export/intel/inteloneapi/compiler/2021.1-beta06/linux/bin/intel64 -mGLOB_as_output_backup_file_name=/tmp/iccsoOnxAas_.s -mGLOB_dashboard_use_source_name -mIPOPT_activate -mGLOB_product_id_code=0x22006d93 -mP3OPT_use_mspp_call_convention -mP2OPT_subs_out_of_bound=FALSE -mP2OPT_disam_type_based_disam=2 -mP2OPT_disam_assume_ansi_c -mP2OPT_checked_disam_ansi_alias=TRUE -mGLOB_ansi_alias -mPGOPTI_value_profile_use=T -mGLOB_opt_report_use_source_name -mP2OPT_il0_array_sections=TRUE -mGLOB_offload_mode=1 -mP2OPT_offload_unique_var_string=icc1774689600ASnbJB -mP2OPT_hlo -mP2OPT_hpo_rtt_control=0 -mIPOPT_args_in_regs=0 -mP2OPT_disam_assume_nonstd_intent_in=FALSE -mGLOB_imf_mapping_library=/export/intel/inteloneapi/compiler/2021.1-beta06/linux/bin/intel64/libiml_attr.so -mPGOPTI_gen_threadsafe_level=0 -mIPOPT_link -mIPOPT_ipo_activate -mIPOPT_mo_activate -mIPOPT_source_files_list=/tmp/iccslisW2mF8a -mIPOPT_mo_global_data -mIPOPT_link_script_file=/tmp/iccscriptxsj1PS "-mIPOPT_cmdline_link="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o" "/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o" "/usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o" "-export-dynamic" "--eh-frame-hdr" "--build-id" "-dynamic-linker" "/lib64/ld-linux-x86-64.so.2" "-m" "elf_x86_64" "-o" "cmTC_b70d5" "-L/export/intel/inteloneapi/vpl/latest/lib" "-L/export/intel/inteloneapi/tbb/2021.1-beta06/env/../lib/intel64/gcc4.8" "-L/export/intel/inteloneapi/oneDNN/2021.1-beta06/cpu_dpcpp_gpu_dpcpp/lib" "-L/export/intel/inteloneapi/mpi/2021.1-beta06//libfabric/lib" "-L/export/intel/inteloneapi/mpi/2021.1-beta06//lib/release" "-L/export/intel/inteloneapi/mpi/2021.1-beta06//lib" "-L/export/intel/inteloneapi/mkl/2021.1-beta06/lib/intel64" "-L/export/intel/inteloneapi/ipp/latest/lib/intel64" "-L/export/intel/inteloneapi/ipp/latest/../../compiler/latest/linux/compiler/lib/intel64" "-L/export/intel/inteloneapi/ipp/latest/../../tbb/latest/lib/intel64/gcc4.8" "-L/export/intel/inteloneapi/daal/latest/lib/intel64" "-L/export/intel/inteloneapi/compiler/latest/linux/lib" "-L/export/intel/inteloneapi/clck/2021.1-beta06/lib/intel64" "-L/export/intel/inteloneapi/compiler/2021.1-beta06/linux/compiler/lib/intel64_lin" "-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/" "-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64" "-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/" "-L/lib/../lib64" "-L/lib/../lib64/" "-L/usr/lib/../lib64" "-L/usr/lib/../lib64/" "-L/export/intel/inteloneapi/vpl/latest/lib/" "-L/export/intel/inteloneapi/tbb/2021.1-beta06/env/../lib/intel64/gcc4.8/" "-L/export/intel/inteloneapi/oneDNN/2021.1-beta06/cpu_dpcpp_gpu_dpcpp/lib/" "-L/export/intel/inteloneapi/mpi/2021.1-beta06//libfabric/lib/" "-L/export/intel/inteloneapi/mpi/2021.1-beta06//lib/release/" "-L/export/intel/inteloneapi/mpi/2021.1-beta06//lib/" "-L/export/intel/inteloneapi/mkl/2021.1-beta06/lib/intel64/" "-L/export/intel/inteloneapi/ipp/latest/lib/intel64/" "-L/export/intel/inteloneapi/ipp/latest/../../compiler/latest/linux/compiler/lib/intel64/" "-L/export/intel/inteloneapi/ipp/latest/../../tbb/latest/lib/intel64/gcc4.8/" "-L/export/intel/inteloneapi/daal/latest/lib/intel64/" "-L/export/intel/inteloneapi/compiler/latest/linux/lib/" "-L/export/intel/inteloneapi/clck/2021.1-beta06/lib/intel64/" "-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../" "-L/lib64" "-L/lib/" "-L/usr/lib64" "-L/usr/lib" "CMakeFiles/cmTC_b70d5.dir/CMakeCCompilerABI.c.o" "-Bdynamic" "-Bstatic" "-limf" "-lsvml" "-lirng" "-Bdynamic" "-lm" "-Bstatic" "-lipgo" "-ldecimal" "--as-needed" "-Bdynamic" "-lcilkrts" "-lstdc++" "--no-as-needed" "-lgcc" "-lgcc_s" "-Bstatic" "-lirc" "-lsvml" "-Bdynamic" "-lc" "-lgcc" "-lgcc_s" "-Bstatic" "-lirc_s" "-Bdynamic" "-ldl" "-lc" "/usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o" "/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o"" -mIPOPT_il_in_obj -mIPOPT_ipo_activate_warn=FALSE -mIPOPT_obj_output_file_name=/tmp/ipo_iccGAuFWW.o -mIPOPT_whole_archive_fixup_file_name=/tmp/iccwarcha7JVWZ -mGLOB_linker_version=2.25.1 -mGLOB_linker=ld -mGLOB_driver_tempfile_name=/tmp/icctempfilepCf7EH -mP3OPT_asm_target=P3OPT_ASM_TARGET_GAS -mGLOB_async_unwind_tables=TRUE -mGLOB_obj_output_file=/tmp/ipo_iccGAuFWW.o -mGLOB_source_dialect=GLOB_SOURCE_DIALECT_NONE -mP1OPT_source_file_name=ipo_out.c CMakeFiles/cmTC_b70d5.dir/CMakeCCompilerABI.c.o -mIPOPT_object_files=T -mIPOPT_assembly_files=/tmp/iccalisUBfjlm -mIPOPT_generated_tempfiles=/tmp/iccelistTJD23 -mIPOPT_embedded_object_base_name=/tmp/icceobjOmBYJL -mIPOPT_cmdline_link_new_name=/tmp/iccllisdWNjrt
+ld    /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -export-dynamic --eh-frame-hdr --build-id -dynamic-linker /lib64/ld-linux-x86-64.so.2 -m elf_x86_64 -o cmTC_b70d5 -L/export/intel/inteloneapi/vpl/latest/lib -L/export/intel/inteloneapi/tbb/2021.1-beta06/env/../lib/intel64/gcc4.8 -L/export/intel/inteloneapi/oneDNN/2021.1-beta06/cpu_dpcpp_gpu_dpcpp/lib -L/export/intel/inteloneapi/mpi/2021.1-beta06//libfabric/lib -L/export/intel/inteloneapi/mpi/2021.1-beta06//lib/release -L/export/intel/inteloneapi/mpi/2021.1-beta06//lib -L/export/intel/inteloneapi/mkl/2021.1-beta06/lib/intel64 -L/export/intel/inteloneapi/ipp/latest/lib/intel64 -L/export/intel/inteloneapi/ipp/latest/../../compiler/latest/linux/compiler/lib/intel64 -L/export/intel/inteloneapi/ipp/latest/../../tbb/latest/lib/intel64/gcc4.8 -L/export/intel/inteloneapi/daal/latest/lib/intel64 -L/export/intel/inteloneapi/compiler/latest/linux/lib -L/export/intel/inteloneapi/clck/2021.1-beta06/lib/intel64 -L/export/intel/inteloneapi/compiler/2021.1-beta06/linux/compiler/lib/intel64_lin -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/ -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/ -L/lib/../lib64 -L/lib/../lib64/ -L/usr/lib/../lib64 -L/usr/lib/../lib64/ -L/export/intel/inteloneapi/vpl/latest/lib/ -L/export/intel/inteloneapi/tbb/2021.1-beta06/env/../lib/intel64/gcc4.8/ -L/export/intel/inteloneapi/oneDNN/2021.1-beta06/cpu_dpcpp_gpu_dpcpp/lib/ -L/export/intel/inteloneapi/mpi/2021.1-beta06//libfabric/lib/ -L/export/intel/inteloneapi/mpi/2021.1-beta06//lib/release/ -L/export/intel/inteloneapi/mpi/2021.1-beta06//lib/ -L/export/intel/inteloneapi/mkl/2021.1-beta06/lib/intel64/ -L/export/intel/inteloneapi/ipp/latest/lib/intel64/ -L/export/intel/inteloneapi/ipp/latest/../../compiler/latest/linux/compiler/lib/intel64/ -L/export/intel/inteloneapi/ipp/latest/../../tbb/latest/lib/intel64/gcc4.8/ -L/export/intel/inteloneapi/daal/latest/lib/intel64/ -L/export/intel/inteloneapi/compiler/latest/linux/lib/ -L/export/intel/inteloneapi/clck/2021.1-beta06/lib/intel64/ -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../ -L/lib64 -L/lib/ -L/usr/lib64 -L/usr/lib CMakeFiles/cmTC_b70d5.dir/CMakeCCompilerABI.c.o -Bdynamic -Bstatic -limf -lsvml -lirng -Bdynamic -lm -Bstatic -lipgo -ldecimal --as-needed -Bdynamic -lcilkrts -lstdc++ --no-as-needed -lgcc -lgcc_s -Bstatic -lirc -lsvml -Bdynamic -lc -lgcc -lgcc_s -Bstatic -lirc_s -Bdynamic -ldl -lc /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o
+gmake[2]: Leaving directory `/home/sorsak/STRUMPACK/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/home/sorsak/STRUMPACK/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/export/intel/inteloneapi/vpl/latest/include]
+    add: [/export/intel/inteloneapi/tbb/2021.1-beta06/env/../include]
+    add: [/export/intel/inteloneapi/oneDNN/2021.1-beta06/cpu_dpcpp_gpu_dpcpp/include]
+    add: [/export/intel/inteloneapi/mpi/2021.1-beta06//include]
+    add: [/export/intel/inteloneapi/mkl/2021.1-beta06/include]
+    add: [/export/intel/inteloneapi/ipp/latest/include]
+    add: [/export/intel/inteloneapi/dpcpp-ct/2021.1-beta06/include]
+    add: [/export/intel/inteloneapi/daal/latest/include]
+    add: [/export/intel/inteloneapi/compiler/latest/linux/include]
+    add: [/export/intel/inteloneapi/compiler/2021.1-beta06/linux/compiler/include/intel64]
+    add: [/export/intel/inteloneapi/compiler/2021.1-beta06/linux/compiler/include/icc]
+    add: [/export/intel/inteloneapi/compiler/2021.1-beta06/linux/compiler/include]
+    add: [/usr/local/include]
+    add: [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include]
+    add: [/usr/include/]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/export/intel/inteloneapi/vpl/latest/include] ==> [/export/intel/inteloneapi/vpl/latest/include]
+  collapse include dir [/export/intel/inteloneapi/tbb/2021.1-beta06/env/../include] ==> [/export/intel/inteloneapi/tbb/2021.1-beta06/include]
+  collapse include dir [/export/intel/inteloneapi/oneDNN/2021.1-beta06/cpu_dpcpp_gpu_dpcpp/include] ==> [/export/intel/inteloneapi/oneDNN/2021.1-beta06/cpu_dpcpp_gpu_dpcpp/include]
+  collapse include dir [/export/intel/inteloneapi/mpi/2021.1-beta06//include] ==> [/export/intel/inteloneapi/mpi/2021.1-beta06/include]
+  collapse include dir [/export/intel/inteloneapi/mkl/2021.1-beta06/include] ==> [/export/intel/inteloneapi/mkl/2021.1-beta06/include]
+  collapse include dir [/export/intel/inteloneapi/ipp/latest/include] ==> [/export/intel/inteloneapi/ipp/latest/include]
+  collapse include dir [/export/intel/inteloneapi/dpcpp-ct/2021.1-beta06/include] ==> [/export/intel/inteloneapi/dpcpp-ct/2021.1-beta06/include]
+  collapse include dir [/export/intel/inteloneapi/daal/latest/include] ==> [/export/intel/inteloneapi/daal/latest/include]
+  collapse include dir [/export/intel/inteloneapi/compiler/latest/linux/include] ==> [/export/intel/inteloneapi/compiler/latest/linux/include]
+  collapse include dir [/export/intel/inteloneapi/compiler/2021.1-beta06/linux/compiler/include/intel64] ==> [/export/intel/inteloneapi/compiler/2021.1-beta06/linux/compiler/include/intel64]
+  collapse include dir [/export/intel/inteloneapi/compiler/2021.1-beta06/linux/compiler/include/icc] ==> [/export/intel/inteloneapi/compiler/2021.1-beta06/linux/compiler/include/icc]
+  collapse include dir [/export/intel/inteloneapi/compiler/2021.1-beta06/linux/compiler/include] ==> [/export/intel/inteloneapi/compiler/2021.1-beta06/linux/compiler/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include] ==> [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include]
+  collapse include dir [/usr/include/] ==> [/usr/include]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/export/intel/inteloneapi/vpl/latest/include;/export/intel/inteloneapi/tbb/2021.1-beta06/include;/export/intel/inteloneapi/oneDNN/2021.1-beta06/cpu_dpcpp_gpu_dpcpp/include;/export/intel/inteloneapi/mpi/2021.1-beta06/include;/export/intel/inteloneapi/mkl/2021.1-beta06/include;/export/intel/inteloneapi/ipp/latest/include;/export/intel/inteloneapi/dpcpp-ct/2021.1-beta06/include;/export/intel/inteloneapi/daal/latest/include;/export/intel/inteloneapi/compiler/latest/linux/include;/export/intel/inteloneapi/compiler/2021.1-beta06/linux/compiler/include/intel64;/export/intel/inteloneapi/compiler/2021.1-beta06/linux/compiler/include/icc;/export/intel/inteloneapi/compiler/2021.1-beta06/linux/compiler/include;/usr/local/include;/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/sorsak/STRUMPACK/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake cmTC_b70d5/fast && gmake[1]: Entering directory `/home/sorsak/STRUMPACK/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_b70d5.dir/build.make CMakeFiles/cmTC_b70d5.dir/build]
+  ignore line: [gmake[2]: Entering directory `/home/sorsak/STRUMPACK/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_b70d5.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/export/intel/inteloneapi/compiler/latest/linux/bin/intel64/icc   -v -o CMakeFiles/cmTC_b70d5.dir/CMakeCCompilerABI.c.o   -c /opt/ohpc/pub/utils/cmake/3.15.4/share/cmake-3.15/Modules/CMakeCCompilerABI.c]
+  ignore line: [icc version 19.1 (gcc version 4.8.5 compatibility)]
+  ignore line: [/export/intel/inteloneapi/compiler/2021.1-beta06/linux/bin/intel64/mcpcom    --target_efi2 --lang=c -_g -mP3OPT_inline_alloca -D__ICC=1910 -D__INTEL_COMPILER=1910 -D__INTEL_COMPILER_UPDATE=0 -D__PTRDIFF_TYPE__=long "-D__SIZE_TYPE__=unsigned long" -D__WCHAR_TYPE__=int "-D__WINT_TYPE__=unsigned int" "-D__INTMAX_TYPE__=long int" "-D__UINTMAX_TYPE__=long unsigned int" -D__LONG_MAX__=9223372036854775807L -D__QMSPP_ -D__OPTIMIZE__ -D__NO_MATH_INLINES -D__NO_STRING_INLINES -D__GNUC_GNU_INLINE__ -D__GNUC__=4 -D__GNUC_MINOR__=8 -D__GNUC_PATCHLEVEL__=5 -D__LP64__ -D_LP64 -D__GXX_ABI_VERSION=1002 "-D__USER_LABEL_PREFIX__= " -D__REGISTER_PREFIX__= -D__INTEL_RTTI__ -D__unix__ -D__unix -D__linux__ -D__linux -D__gnu_linux__ -B -Dunix -Dlinux "-_Asystem(unix)" -D__ELF__ -D__x86_64 -D__x86_64__ -D__amd64 -D__amd64__ "-_Acpu(x86_64)" "-_Amachine(x86_64)" -D__INTEL_COMPILER_BUILD_DATE=20200306 -D__INTEL_OFFLOAD -D__MMX__ -D__SSE__ -D__SSE_MATH__ -D__SSE2__ -D__SSE2_MATH__ -D__pentium4 -D__pentium4__ -D__tune_pentium4__ -_k -_8 -_l --has_new_stdarg_support -_a -_b --gnu_version=40805 -_W5 --openmp_simd --multibyte_chars -mGLOB_diag_suppress_sys --system_preinclude /usr/include/stdc-predef.h -I/export/intel/inteloneapi/pstl/include -I/export/intel/inteloneapi/vpl/latest/include -I/export/intel/inteloneapi/tbb/2021.1-beta06/env/../include -I/export/intel/inteloneapi/oneDNN/2021.1-beta06/cpu_dpcpp_gpu_dpcpp/include -I/export/intel/inteloneapi/mpi/2021.1-beta06//include -I/export/intel/inteloneapi/mkl/2021.1-beta06/include -I/export/intel/inteloneapi/ipp/latest/include -I/export/intel/inteloneapi/dpcpp-ct/2021.1-beta06/include -I/export/intel/inteloneapi/daal/latest/include -I/export/intel/inteloneapi/compiler/latest/linux/include --array_section --simd --simd_func --offload_mode=1 --offload_target_names=mic,MIC --offload_unique_string=icc1382597019c8xn9t -mGLOB_em64t=TRUE -mP1OPT_version=19.1-intel64 -mGLOB_diag_file=CMakeFiles/cmTC_b70d5.dir/CMakeCCompilerABI.c.diag -mGLOB_long_size_64 -mGLOB_routine_pointer_size_64 -mP1OPT_print_version=FALSE -mCG_use_gas_got_workaround=F -mP2OPT_align_option_used=TRUE -mGLOB_gcc_version=485 "-mGLOB_options_string=-v -o CMakeFiles/cmTC_b70d5.dir/CMakeCCompilerABI.c.o -c" -mGLOB_cxx_limited_range=FALSE -mCG_extend_parms=FALSE -mGLOB_compiler_bin_directory=/export/intel/inteloneapi/compiler/2021.1-beta06/linux/bin/intel64 -mGLOB_as_output_backup_file_name=/tmp/iccBA1DuAas_.s -mIPOPT_activate -mIPOPT_lite -mGLOB_uarch_tuning=0x0 -mGLOB_product_id_code=0x22006d93 -mCG_bnl_movbe=T -mP3OPT_use_mspp_call_convention -mP2OPT_subs_out_of_bound=FALSE -mP2OPT_disam_type_based_disam=2 -mP2OPT_disam_assume_ansi_c -mP2OPT_checked_disam_ansi_alias=TRUE -mGLOB_ansi_alias -mPGOPTI_value_profile_use=T -mP2OPT_il0_array_sections=TRUE -mGLOB_offload_mode=1 -mP2OPT_offload_unique_var_string=icc1382597019c8xn9t -mP2OPT_hlo_level=2 -mP2OPT_hlo -mP2OPT_hpo_rtt_control=0 -mIPOPT_args_in_regs=0 -mP2OPT_disam_assume_nonstd_intent_in=FALSE -mGLOB_imf_mapping_library=/export/intel/inteloneapi/compiler/2021.1-beta06/linux/bin/intel64/libiml_attr.so -mPGOPTI_gen_threadsafe_level=0 -mIPOPT_lto_object_enabled -mIPOPT_lto_object_value=1 -mIPOPT_obj_output_file_name=CMakeFiles/cmTC_b70d5.dir/CMakeCCompilerABI.c.o -mIPOPT_whole_archive_fixup_file_name=/tmp/iccwarchpNHspZ -mGLOB_linker_version=2.25.1 -mGLOB_linker=ld -mGLOB_driver_tempfile_name=/tmp/icctempfile1we5RG -mP3OPT_asm_target=P3OPT_ASM_TARGET_GAS -mGLOB_async_unwind_tables=TRUE -mGLOB_obj_output_file=CMakeFiles/cmTC_b70d5.dir/CMakeCCompilerABI.c.o -mGLOB_source_dialect=GLOB_SOURCE_DIALECT_C -mP1OPT_source_file_name=/opt/ohpc/pub/utils/cmake/3.15.4/share/cmake-3.15/Modules/CMakeCCompilerABI.c -mP1OPT_full_source_file_name=/opt/ohpc/pub/utils/cmake/3.15.4/share/cmake-3.15/Modules/CMakeCCompilerABI.c /opt/ohpc/pub/utils/cmake/3.15.4/share/cmake-3.15/Modules/CMakeCCompilerABI.c]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /export/intel/inteloneapi/vpl/latest/include]
+  ignore line: [ /export/intel/inteloneapi/tbb/2021.1-beta06/env/../include]
+  ignore line: [ /export/intel/inteloneapi/oneDNN/2021.1-beta06/cpu_dpcpp_gpu_dpcpp/include]
+  ignore line: [ /export/intel/inteloneapi/mpi/2021.1-beta06//include]
+  ignore line: [ /export/intel/inteloneapi/mkl/2021.1-beta06/include]
+  ignore line: [ /export/intel/inteloneapi/ipp/latest/include]
+  ignore line: [ /export/intel/inteloneapi/dpcpp-ct/2021.1-beta06/include]
+  ignore line: [ /export/intel/inteloneapi/daal/latest/include]
+  ignore line: [ /export/intel/inteloneapi/compiler/latest/linux/include]
+  ignore line: [ /export/intel/inteloneapi/compiler/2021.1-beta06/linux/compiler/include/intel64]
+  ignore line: [ /export/intel/inteloneapi/compiler/2021.1-beta06/linux/compiler/include/icc]
+  ignore line: [ /export/intel/inteloneapi/compiler/2021.1-beta06/linux/compiler/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include]
+  ignore line: [ /usr/include/]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [Linking C executable cmTC_b70d5]
+  ignore line: [/opt/ohpc/pub/utils/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b70d5.dir/link.txt --verbose=1]
+  ignore line: [/export/intel/inteloneapi/compiler/latest/linux/bin/intel64/icc     -v -rdynamic CMakeFiles/cmTC_b70d5.dir/CMakeCCompilerABI.c.o  -o cmTC_b70d5 ]
+  ignore line: [icc version 19.1 (gcc version 4.8.5 compatibility)]
+  ignore line: [/export/intel/inteloneapi/compiler/2021.1-beta06/linux/bin/intel64/mcpcom    -mGLOB_em64t=TRUE -mP1OPT_version=19.1-intel64 -mGLOB_diag_file=CMakeFiles/cmTC_b70d5.dir/CMakeCCompilerABI.c.diag -mGLOB_long_size_64 -mGLOB_routine_pointer_size_64 -mP1OPT_print_version=FALSE -mCG_use_gas_got_workaround=F -mP2OPT_align_option_used=TRUE -mGLOB_gcc_version=485 "-mGLOB_options_string=-v -rdynamic -o cmTC_b70d5" -mGLOB_cxx_limited_range=FALSE -mCG_extend_parms=FALSE -mGLOB_compiler_bin_directory=/export/intel/inteloneapi/compiler/2021.1-beta06/linux/bin/intel64 -mGLOB_as_output_backup_file_name=/tmp/iccsoOnxAas_.s -mGLOB_dashboard_use_source_name -mIPOPT_activate -mGLOB_product_id_code=0x22006d93 -mP3OPT_use_mspp_call_convention -mP2OPT_subs_out_of_bound=FALSE -mP2OPT_disam_type_based_disam=2 -mP2OPT_disam_assume_ansi_c -mP2OPT_checked_disam_ansi_alias=TRUE -mGLOB_ansi_alias -mPGOPTI_value_profile_use=T -mGLOB_opt_report_use_source_name -mP2OPT_il0_array_sections=TRUE -mGLOB_offload_mode=1 -mP2OPT_offload_unique_var_string=icc1774689600ASnbJB -mP2OPT_hlo -mP2OPT_hpo_rtt_control=0 -mIPOPT_args_in_regs=0 -mP2OPT_disam_assume_nonstd_intent_in=FALSE -mGLOB_imf_mapping_library=/export/intel/inteloneapi/compiler/2021.1-beta06/linux/bin/intel64/libiml_attr.so -mPGOPTI_gen_threadsafe_level=0 -mIPOPT_link -mIPOPT_ipo_activate -mIPOPT_mo_activate -mIPOPT_source_files_list=/tmp/iccslisW2mF8a -mIPOPT_mo_global_data -mIPOPT_link_script_file=/tmp/iccscriptxsj1PS "-mIPOPT_cmdline_link="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o" "/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o" "/usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o" "-export-dynamic" "--eh-frame-hdr" "--build-id" "-dynamic-linker" "/lib64/ld-linux-x86-64.so.2" "-m" "elf_x86_64" "-o" "cmTC_b70d5" "-L/export/intel/inteloneapi/vpl/latest/lib" "-L/export/intel/inteloneapi/tbb/2021.1-beta06/env/../lib/intel64/gcc4.8" "-L/export/intel/inteloneapi/oneDNN/2021.1-beta06/cpu_dpcpp_gpu_dpcpp/lib" "-L/export/intel/inteloneapi/mpi/2021.1-beta06//libfabric/lib" "-L/export/intel/inteloneapi/mpi/2021.1-beta06//lib/release" "-L/export/intel/inteloneapi/mpi/2021.1-beta06//lib" "-L/export/intel/inteloneapi/mkl/2021.1-beta06/lib/intel64" "-L/export/intel/inteloneapi/ipp/latest/lib/intel64" "-L/export/intel/inteloneapi/ipp/latest/../../compiler/latest/linux/compiler/lib/intel64" "-L/export/intel/inteloneapi/ipp/latest/../../tbb/latest/lib/intel64/gcc4.8" "-L/export/intel/inteloneapi/daal/latest/lib/intel64" "-L/export/intel/inteloneapi/compiler/latest/linux/lib" "-L/export/intel/inteloneapi/clck/2021.1-beta06/lib/intel64" "-L/export/intel/inteloneapi/compiler/2021.1-beta06/linux/compiler/lib/intel64_lin" "-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/" "-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64" "-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/" "-L/lib/../lib64" "-L/lib/../lib64/" "-L/usr/lib/../lib64" "-L/usr/lib/../lib64/" "-L/export/intel/inteloneapi/vpl/latest/lib/" "-L/export/intel/inteloneapi/tbb/2021.1-beta06/env/../lib/intel64/gcc4.8/" "-L/export/intel/inteloneapi/oneDNN/2021.1-beta06/cpu_dpcpp_gpu_dpcpp/lib/" "-L/export/intel/inteloneapi/mpi/2021.1-beta06//libfabric/lib/" "-L/export/intel/inteloneapi/mpi/2021.1-beta06//lib/release/" "-L/export/intel/inteloneapi/mpi/2021.1-beta06//lib/" "-L/export/intel/inteloneapi/mkl/2021.1-beta06/lib/intel64/" "-L/export/intel/inteloneapi/ipp/latest/lib/intel64/" "-L/export/intel/inteloneapi/ipp/latest/../../compiler/latest/linux/compiler/lib/intel64/" "-L/export/intel/inteloneapi/ipp/latest/../../tbb/latest/lib/intel64/gcc4.8/" "-L/export/intel/inteloneapi/daal/latest/lib/intel64/" "-L/export/intel/inteloneapi/compiler/latest/linux/lib/" "-L/export/intel/inteloneapi/clck/2021.1-beta06/lib/intel64/" "-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../" "-L/lib64" "-L/lib/" "-L/usr/lib64" "-L/usr/lib" "CMakeFiles/cmTC_b70d5.dir/CMakeCCompilerABI.c.o" "-Bdynamic" "-Bstatic" "-limf" "-lsvml" "-lirng" "-Bdynamic" "-lm" "-Bstatic" "-lipgo" "-ldecimal" "--as-needed" "-Bdynamic" "-lcilkrts" "-lstdc++" "--no-as-needed" "-lgcc" "-lgcc_s" "-Bstatic" "-lirc" "-lsvml" "-Bdynamic" "-lc" "-lgcc" "-lgcc_s" "-Bstatic" "-lirc_s" "-Bdynamic" "-ldl" "-lc" "/usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o" "/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o"" -mIPOPT_il_in_obj -mIPOPT_ipo_activate_warn=FALSE -mIPOPT_obj_output_file_name=/tmp/ipo_iccGAuFWW.o -mIPOPT_whole_archive_fixup_file_name=/tmp/iccwarcha7JVWZ -mGLOB_linker_version=2.25.1 -mGLOB_linker=ld -mGLOB_driver_tempfile_name=/tmp/icctempfilepCf7EH -mP3OPT_asm_target=P3OPT_ASM_TARGET_GAS -mGLOB_async_unwind_tables=TRUE -mGLOB_obj_output_file=/tmp/ipo_iccGAuFWW.o -mGLOB_source_dialect=GLOB_SOURCE_DIALECT_NONE -mP1OPT_source_file_name=ipo_out.c CMakeFiles/cmTC_b70d5.dir/CMakeCCompilerABI.c.o -mIPOPT_object_files=T -mIPOPT_assembly_files=/tmp/iccalisUBfjlm -mIPOPT_generated_tempfiles=/tmp/iccelistTJD23 -mIPOPT_embedded_object_base_name=/tmp/icceobjOmBYJL -mIPOPT_cmdline_link_new_name=/tmp/iccllisdWNjrt]
+  link line: [ld    /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -export-dynamic --eh-frame-hdr --build-id -dynamic-linker /lib64/ld-linux-x86-64.so.2 -m elf_x86_64 -o cmTC_b70d5 -L/export/intel/inteloneapi/vpl/latest/lib -L/export/intel/inteloneapi/tbb/2021.1-beta06/env/../lib/intel64/gcc4.8 -L/export/intel/inteloneapi/oneDNN/2021.1-beta06/cpu_dpcpp_gpu_dpcpp/lib -L/export/intel/inteloneapi/mpi/2021.1-beta06//libfabric/lib -L/export/intel/inteloneapi/mpi/2021.1-beta06//lib/release -L/export/intel/inteloneapi/mpi/2021.1-beta06//lib -L/export/intel/inteloneapi/mkl/2021.1-beta06/lib/intel64 -L/export/intel/inteloneapi/ipp/latest/lib/intel64 -L/export/intel/inteloneapi/ipp/latest/../../compiler/latest/linux/compiler/lib/intel64 -L/export/intel/inteloneapi/ipp/latest/../../tbb/latest/lib/intel64/gcc4.8 -L/export/intel/inteloneapi/daal/latest/lib/intel64 -L/export/intel/inteloneapi/compiler/latest/linux/lib -L/export/intel/inteloneapi/clck/2021.1-beta06/lib/intel64 -L/export/intel/inteloneapi/compiler/2021.1-beta06/linux/compiler/lib/intel64_lin -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/ -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/ -L/lib/../lib64 -L/lib/../lib64/ -L/usr/lib/../lib64 -L/usr/lib/../lib64/ -L/export/intel/inteloneapi/vpl/latest/lib/ -L/export/intel/inteloneapi/tbb/2021.1-beta06/env/../lib/intel64/gcc4.8/ -L/export/intel/inteloneapi/oneDNN/2021.1-beta06/cpu_dpcpp_gpu_dpcpp/lib/ -L/export/intel/inteloneapi/mpi/2021.1-beta06//libfabric/lib/ -L/export/intel/inteloneapi/mpi/2021.1-beta06//lib/release/ -L/export/intel/inteloneapi/mpi/2021.1-beta06//lib/ -L/export/intel/inteloneapi/mkl/2021.1-beta06/lib/intel64/ -L/export/intel/inteloneapi/ipp/latest/lib/intel64/ -L/export/intel/inteloneapi/ipp/latest/../../compiler/latest/linux/compiler/lib/intel64/ -L/export/intel/inteloneapi/ipp/latest/../../tbb/latest/lib/intel64/gcc4.8/ -L/export/intel/inteloneapi/daal/latest/lib/intel64/ -L/export/intel/inteloneapi/compiler/latest/linux/lib/ -L/export/intel/inteloneapi/clck/2021.1-beta06/lib/intel64/ -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../ -L/lib64 -L/lib/ -L/usr/lib64 -L/usr/lib CMakeFiles/cmTC_b70d5.dir/CMakeCCompilerABI.c.o -Bdynamic -Bstatic -limf -lsvml -lirng -Bdynamic -lm -Bstatic -lipgo -ldecimal --as-needed -Bdynamic -lcilkrts -lstdc++ --no-as-needed -lgcc -lgcc_s -Bstatic -lirc -lsvml -Bdynamic -lc -lgcc -lgcc_s -Bstatic -lirc_s -Bdynamic -ldl -lc /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o]
+    arg [ld] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_b70d5] ==> ignore
+    arg [-L/export/intel/inteloneapi/vpl/latest/lib] ==> dir [/export/intel/inteloneapi/vpl/latest/lib]
+    arg [-L/export/intel/inteloneapi/tbb/2021.1-beta06/env/../lib/intel64/gcc4.8] ==> dir [/export/intel/inteloneapi/tbb/2021.1-beta06/env/../lib/intel64/gcc4.8]
+    arg [-L/export/intel/inteloneapi/oneDNN/2021.1-beta06/cpu_dpcpp_gpu_dpcpp/lib] ==> dir [/export/intel/inteloneapi/oneDNN/2021.1-beta06/cpu_dpcpp_gpu_dpcpp/lib]
+    arg [-L/export/intel/inteloneapi/mpi/2021.1-beta06//libfabric/lib] ==> dir [/export/intel/inteloneapi/mpi/2021.1-beta06//libfabric/lib]
+    arg [-L/export/intel/inteloneapi/mpi/2021.1-beta06//lib/release] ==> dir [/export/intel/inteloneapi/mpi/2021.1-beta06//lib/release]
+    arg [-L/export/intel/inteloneapi/mpi/2021.1-beta06//lib] ==> dir [/export/intel/inteloneapi/mpi/2021.1-beta06//lib]
+    arg [-L/export/intel/inteloneapi/mkl/2021.1-beta06/lib/intel64] ==> dir [/export/intel/inteloneapi/mkl/2021.1-beta06/lib/intel64]
+    arg [-L/export/intel/inteloneapi/ipp/latest/lib/intel64] ==> dir [/export/intel/inteloneapi/ipp/latest/lib/intel64]
+    arg [-L/export/intel/inteloneapi/ipp/latest/../../compiler/latest/linux/compiler/lib/intel64] ==> dir [/export/intel/inteloneapi/ipp/latest/../../compiler/latest/linux/compiler/lib/intel64]
+    arg [-L/export/intel/inteloneapi/ipp/latest/../../tbb/latest/lib/intel64/gcc4.8] ==> dir [/export/intel/inteloneapi/ipp/latest/../../tbb/latest/lib/intel64/gcc4.8]
+    arg [-L/export/intel/inteloneapi/daal/latest/lib/intel64] ==> dir [/export/intel/inteloneapi/daal/latest/lib/intel64]
+    arg [-L/export/intel/inteloneapi/compiler/latest/linux/lib] ==> dir [/export/intel/inteloneapi/compiler/latest/linux/lib]
+    arg [-L/export/intel/inteloneapi/clck/2021.1-beta06/lib/intel64] ==> dir [/export/intel/inteloneapi/clck/2021.1-beta06/lib/intel64]
+    arg [-L/export/intel/inteloneapi/compiler/2021.1-beta06/linux/compiler/lib/intel64_lin] ==> dir [/export/intel/inteloneapi/compiler/2021.1-beta06/linux/compiler/lib/intel64_lin]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/lib/../lib64/] ==> dir [/lib/../lib64/]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/lib/../lib64/] ==> dir [/usr/lib/../lib64/]
+    arg [-L/export/intel/inteloneapi/vpl/latest/lib/] ==> dir [/export/intel/inteloneapi/vpl/latest/lib/]
+    arg [-L/export/intel/inteloneapi/tbb/2021.1-beta06/env/../lib/intel64/gcc4.8/] ==> dir [/export/intel/inteloneapi/tbb/2021.1-beta06/env/../lib/intel64/gcc4.8/]
+    arg [-L/export/intel/inteloneapi/oneDNN/2021.1-beta06/cpu_dpcpp_gpu_dpcpp/lib/] ==> dir [/export/intel/inteloneapi/oneDNN/2021.1-beta06/cpu_dpcpp_gpu_dpcpp/lib/]
+    arg [-L/export/intel/inteloneapi/mpi/2021.1-beta06//libfabric/lib/] ==> dir [/export/intel/inteloneapi/mpi/2021.1-beta06//libfabric/lib/]
+    arg [-L/export/intel/inteloneapi/mpi/2021.1-beta06//lib/release/] ==> dir [/export/intel/inteloneapi/mpi/2021.1-beta06//lib/release/]
+    arg [-L/export/intel/inteloneapi/mpi/2021.1-beta06//lib/] ==> dir [/export/intel/inteloneapi/mpi/2021.1-beta06//lib/]
+    arg [-L/export/intel/inteloneapi/mkl/2021.1-beta06/lib/intel64/] ==> dir [/export/intel/inteloneapi/mkl/2021.1-beta06/lib/intel64/]
+    arg [-L/export/intel/inteloneapi/ipp/latest/lib/intel64/] ==> dir [/export/intel/inteloneapi/ipp/latest/lib/intel64/]
+    arg [-L/export/intel/inteloneapi/ipp/latest/../../compiler/latest/linux/compiler/lib/intel64/] ==> dir [/export/intel/inteloneapi/ipp/latest/../../compiler/latest/linux/compiler/lib/intel64/]
+    arg [-L/export/intel/inteloneapi/ipp/latest/../../tbb/latest/lib/intel64/gcc4.8/] ==> dir [/export/intel/inteloneapi/ipp/latest/../../tbb/latest/lib/intel64/gcc4.8/]
+    arg [-L/export/intel/inteloneapi/daal/latest/lib/intel64/] ==> dir [/export/intel/inteloneapi/daal/latest/lib/intel64/]
+    arg [-L/export/intel/inteloneapi/compiler/latest/linux/lib/] ==> dir [/export/intel/inteloneapi/compiler/latest/linux/lib/]
+    arg [-L/export/intel/inteloneapi/clck/2021.1-beta06/lib/intel64/] ==> dir [/export/intel/inteloneapi/clck/2021.1-beta06/lib/intel64/]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../]
+    arg [-L/lib64] ==> dir [/lib64]
+    arg [-L/lib/] ==> dir [/lib/]
+    arg [-L/usr/lib64] ==> dir [/usr/lib64]
+    arg [-L/usr/lib] ==> dir [/usr/lib]
+    arg [CMakeFiles/cmTC_b70d5.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [-Bstatic] ==> ignore
+    arg [-limf] ==> lib [imf]
+    arg [-lsvml] ==> lib [svml]
+    arg [-lirng] ==> lib [irng]
+    arg [-Bdynamic] ==> ignore
+    arg [-lm] ==> lib [m]
+    arg [-Bstatic] ==> ignore
+    arg [-lipgo] ==> lib [ipgo]
+    arg [-ldecimal] ==> lib [decimal]
+    arg [--as-needed] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [-lcilkrts] ==> lib [cilkrts]
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [--no-as-needed] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-Bstatic] ==> ignore
+    arg [-lirc] ==> lib [irc]
+    arg [-lsvml] ==> lib [svml]
+    arg [-Bdynamic] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-Bstatic] ==> ignore
+    arg [-lirc_s] ==> lib [irc_s]
+    arg [-Bdynamic] ==> ignore
+    arg [-ldl] ==> lib [dl]
+    arg [-lc] ==> lib [c]
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o] ==> ignore
+  collapse library dir [/export/intel/inteloneapi/vpl/latest/lib] ==> [/export/intel/inteloneapi/vpl/latest/lib]
+  collapse library dir [/export/intel/inteloneapi/tbb/2021.1-beta06/env/../lib/intel64/gcc4.8] ==> [/export/intel/inteloneapi/tbb/2021.1-beta06/lib/intel64/gcc4.8]
+  collapse library dir [/export/intel/inteloneapi/oneDNN/2021.1-beta06/cpu_dpcpp_gpu_dpcpp/lib] ==> [/export/intel/inteloneapi/oneDNN/2021.1-beta06/cpu_dpcpp_gpu_dpcpp/lib]
+  collapse library dir [/export/intel/inteloneapi/mpi/2021.1-beta06//libfabric/lib] ==> [/export/intel/inteloneapi/mpi/2021.1-beta06/libfabric/lib]
+  collapse library dir [/export/intel/inteloneapi/mpi/2021.1-beta06//lib/release] ==> [/export/intel/inteloneapi/mpi/2021.1-beta06/lib/release]
+  collapse library dir [/export/intel/inteloneapi/mpi/2021.1-beta06//lib] ==> [/export/intel/inteloneapi/mpi/2021.1-beta06/lib]
+  collapse library dir [/export/intel/inteloneapi/mkl/2021.1-beta06/lib/intel64] ==> [/export/intel/inteloneapi/mkl/2021.1-beta06/lib/intel64]
+  collapse library dir [/export/intel/inteloneapi/ipp/latest/lib/intel64] ==> [/export/intel/inteloneapi/ipp/latest/lib/intel64]
+  collapse library dir [/export/intel/inteloneapi/ipp/latest/../../compiler/latest/linux/compiler/lib/intel64] ==> [/export/intel/inteloneapi/compiler/latest/linux/compiler/lib/intel64]
+  collapse library dir [/export/intel/inteloneapi/ipp/latest/../../tbb/latest/lib/intel64/gcc4.8] ==> [/export/intel/inteloneapi/tbb/latest/lib/intel64/gcc4.8]
+  collapse library dir [/export/intel/inteloneapi/daal/latest/lib/intel64] ==> [/export/intel/inteloneapi/daal/latest/lib/intel64]
+  collapse library dir [/export/intel/inteloneapi/compiler/latest/linux/lib] ==> [/export/intel/inteloneapi/compiler/latest/linux/lib]
+  collapse library dir [/export/intel/inteloneapi/clck/2021.1-beta06/lib/intel64] ==> [/export/intel/inteloneapi/clck/2021.1-beta06/lib/intel64]
+  collapse library dir [/export/intel/inteloneapi/compiler/2021.1-beta06/linux/compiler/lib/intel64_lin] ==> [/export/intel/inteloneapi/compiler/2021.1-beta06/linux/compiler/lib/intel64_lin]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/] ==> [/usr/lib/gcc/x86_64-redhat-linux/4.8.5]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/] ==> [/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/lib/../lib64/] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib/../lib64/] ==> [/usr/lib64]
+  collapse library dir [/export/intel/inteloneapi/vpl/latest/lib/] ==> [/export/intel/inteloneapi/vpl/latest/lib]
+  collapse library dir [/export/intel/inteloneapi/tbb/2021.1-beta06/env/../lib/intel64/gcc4.8/] ==> [/export/intel/inteloneapi/tbb/2021.1-beta06/lib/intel64/gcc4.8]
+  collapse library dir [/export/intel/inteloneapi/oneDNN/2021.1-beta06/cpu_dpcpp_gpu_dpcpp/lib/] ==> [/export/intel/inteloneapi/oneDNN/2021.1-beta06/cpu_dpcpp_gpu_dpcpp/lib]
+  collapse library dir [/export/intel/inteloneapi/mpi/2021.1-beta06//libfabric/lib/] ==> [/export/intel/inteloneapi/mpi/2021.1-beta06/libfabric/lib]
+  collapse library dir [/export/intel/inteloneapi/mpi/2021.1-beta06//lib/release/] ==> [/export/intel/inteloneapi/mpi/2021.1-beta06/lib/release]
+  collapse library dir [/export/intel/inteloneapi/mpi/2021.1-beta06//lib/] ==> [/export/intel/inteloneapi/mpi/2021.1-beta06/lib]
+  collapse library dir [/export/intel/inteloneapi/mkl/2021.1-beta06/lib/intel64/] ==> [/export/intel/inteloneapi/mkl/2021.1-beta06/lib/intel64]
+  collapse library dir [/export/intel/inteloneapi/ipp/latest/lib/intel64/] ==> [/export/intel/inteloneapi/ipp/latest/lib/intel64]
+  collapse library dir [/export/intel/inteloneapi/ipp/latest/../../compiler/latest/linux/compiler/lib/intel64/] ==> [/export/intel/inteloneapi/compiler/latest/linux/compiler/lib/intel64]
+  collapse library dir [/export/intel/inteloneapi/ipp/latest/../../tbb/latest/lib/intel64/gcc4.8/] ==> [/export/intel/inteloneapi/tbb/latest/lib/intel64/gcc4.8]
+  collapse library dir [/export/intel/inteloneapi/daal/latest/lib/intel64/] ==> [/export/intel/inteloneapi/daal/latest/lib/intel64]
+  collapse library dir [/export/intel/inteloneapi/compiler/latest/linux/lib/] ==> [/export/intel/inteloneapi/compiler/latest/linux/lib]
+  collapse library dir [/export/intel/inteloneapi/clck/2021.1-beta06/lib/intel64/] ==> [/export/intel/inteloneapi/clck/2021.1-beta06/lib/intel64]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../] ==> [/usr/lib]
+  collapse library dir [/lib64] ==> [/lib64]
+  collapse library dir [/lib/] ==> [/lib]
+  collapse library dir [/usr/lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  implicit libs: [imf;svml;irng;m;ipgo;decimal;cilkrts;stdc++;gcc;gcc_s;irc;svml;c;gcc;gcc_s;irc_s;dl;c]
+  implicit dirs: [/export/intel/inteloneapi/vpl/latest/lib;/export/intel/inteloneapi/tbb/2021.1-beta06/lib/intel64/gcc4.8;/export/intel/inteloneapi/oneDNN/2021.1-beta06/cpu_dpcpp_gpu_dpcpp/lib;/export/intel/inteloneapi/mpi/2021.1-beta06/libfabric/lib;/export/intel/inteloneapi/mpi/2021.1-beta06/lib/release;/export/intel/inteloneapi/mpi/2021.1-beta06/lib;/export/intel/inteloneapi/mkl/2021.1-beta06/lib/intel64;/export/intel/inteloneapi/ipp/latest/lib/intel64;/export/intel/inteloneapi/compiler/latest/linux/compiler/lib/intel64;/export/intel/inteloneapi/tbb/latest/lib/intel64/gcc4.8;/export/intel/inteloneapi/daal/latest/lib/intel64;/export/intel/inteloneapi/compiler/latest/linux/lib;/export/intel/inteloneapi/clck/2021.1-beta06/lib/intel64;/export/intel/inteloneapi/compiler/2021.1-beta06/linux/compiler/lib/intel64_lin;/usr/lib/gcc/x86_64-redhat-linux/4.8.5;/usr/lib64;/lib64;/usr/lib;/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/sorsak/STRUMPACK/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_b7136/fast && gmake[1]: Entering directory `/home/sorsak/STRUMPACK/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTC_b7136.dir/build.make CMakeFiles/cmTC_b7136.dir/build
+gmake[2]: Entering directory `/home/sorsak/STRUMPACK/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b7136.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_b7136.dir/testCXXCompiler.cxx.o -c /home/sorsak/STRUMPACK/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_b7136
+/opt/ohpc/pub/utils/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b7136.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_b7136.dir/testCXXCompiler.cxx.o  -o cmTC_b7136 
+gmake[2]: Leaving directory `/home/sorsak/STRUMPACK/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/home/sorsak/STRUMPACK/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/sorsak/STRUMPACK/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_d9688/fast && gmake[1]: Entering directory `/home/sorsak/STRUMPACK/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTC_d9688.dir/build.make CMakeFiles/cmTC_d9688.dir/build
+gmake[2]: Entering directory `/home/sorsak/STRUMPACK/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d9688.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++    -v -o CMakeFiles/cmTC_d9688.dir/CMakeCXXCompilerABI.cpp.o -c /opt/ohpc/pub/utils/cmake/3.15.4/share/cmake-3.15/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+Target: x86_64-redhat-linux
+Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++,objc,obj-c++,java,fortran,ada,go,lto --enable-plugin --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/cloog-install --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux
+Thread model: posix
+gcc version 4.8.5 20150623 (Red Hat 4.8.5-16) (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d9688.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/cc1plus -quiet -v -D_GNU_SOURCE /opt/ohpc/pub/utils/cmake/3.15.4/share/cmake-3.15/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_d9688.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccLXYxMO.s
+GNU C++ (GCC) version 4.8.5 20150623 (Red Hat 4.8.5-16) (x86_64-redhat-linux)
+	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-16), GMP version 6.0.0, MPFR version 3.1.1, MPC version 1.0.1
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../x86_64-redhat-linux/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /export/intel/inteloneapi/vpl/latest/include
+ /export/intel/inteloneapi/tbb/2021.1-beta06/env/../include
+ /export/intel/inteloneapi/oneDNN/2021.1-beta06/cpu_dpcpp_gpu_dpcpp/include
+ /export/intel/inteloneapi/mpi/2021.1-beta06//include
+ /export/intel/inteloneapi/mkl/2021.1-beta06/include
+ /export/intel/inteloneapi/ipp/latest/include
+ /export/intel/inteloneapi/dpcpp-ct/2021.1-beta06/include
+ /export/intel/inteloneapi/daal/latest/include
+ /export/intel/inteloneapi/compiler/latest/linux/include
+ /export/intel/inteloneapi/clck/2021.1-beta06/include
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include
+ /usr/local/include
+ /usr/include
+End of search list.
+GNU C++ (GCC) version 4.8.5 20150623 (Red Hat 4.8.5-16) (x86_64-redhat-linux)
+	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-16), GMP version 6.0.0, MPFR version 3.1.1, MPC version 1.0.1
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: efa234c49a4035e782cc33b8ca41a2ee
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d9688.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_d9688.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccLXYxMO.s
+GNU assembler version 2.25.1 (x86_64-redhat-linux) using BFD version version 2.25.1-32.base.el7_4.2 
+COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/export/intel/inteloneapi/vpl/latest/lib/:/export/intel/inteloneapi/tbb/2021.1-beta06/env/../lib/intel64/gcc4.8/:/export/intel/inteloneapi/oneDNN/2021.1-beta06/cpu_dpcpp_gpu_dpcpp/lib/:/export/intel/inteloneapi/mpi/2021.1-beta06//libfabric/lib/:/export/intel/inteloneapi/mpi/2021.1-beta06//lib/release/:/export/intel/inteloneapi/mpi/2021.1-beta06//lib/:/export/intel/inteloneapi/mkl/2021.1-beta06/lib/intel64/:/export/intel/inteloneapi/ipp/latest/lib/intel64/:/export/intel/inteloneapi/ipp/latest/../../compiler/latest/linux/compiler/lib/intel64/:/export/intel/inteloneapi/ipp/latest/../../tbb/latest/lib/intel64/gcc4.8/:/export/intel/inteloneapi/daal/latest/lib/intel64/:/export/intel/inteloneapi/compiler/latest/linux/lib/:/export/intel/inteloneapi/clck/2021.1-beta06/lib/intel64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d9688.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+Linking CXX executable cmTC_d9688
+/opt/ohpc/pub/utils/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d9688.dir/link.txt --verbose=1
+/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_d9688.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_d9688 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper
+Target: x86_64-redhat-linux
+Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++,objc,obj-c++,java,fortran,ada,go,lto --enable-plugin --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/cloog-install --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux
+Thread model: posix
+gcc version 4.8.5 20150623 (Red Hat 4.8.5-16) (GCC) 
+COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/export/intel/inteloneapi/vpl/latest/lib/:/export/intel/inteloneapi/tbb/2021.1-beta06/env/../lib/intel64/gcc4.8/:/export/intel/inteloneapi/oneDNN/2021.1-beta06/cpu_dpcpp_gpu_dpcpp/lib/:/export/intel/inteloneapi/mpi/2021.1-beta06//libfabric/lib/:/export/intel/inteloneapi/mpi/2021.1-beta06//lib/release/:/export/intel/inteloneapi/mpi/2021.1-beta06//lib/:/export/intel/inteloneapi/mkl/2021.1-beta06/lib/intel64/:/export/intel/inteloneapi/ipp/latest/lib/intel64/:/export/intel/inteloneapi/ipp/latest/../../compiler/latest/linux/compiler/lib/intel64/:/export/intel/inteloneapi/ipp/latest/../../tbb/latest/lib/intel64/gcc4.8/:/export/intel/inteloneapi/daal/latest/lib/intel64/:/export/intel/inteloneapi/compiler/latest/linux/lib/:/export/intel/inteloneapi/clck/2021.1-beta06/lib/intel64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_d9688' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_d9688 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/export/intel/inteloneapi/vpl/latest/lib -L/export/intel/inteloneapi/tbb/2021.1-beta06/env/../lib/intel64/gcc4.8 -L/export/intel/inteloneapi/oneDNN/2021.1-beta06/cpu_dpcpp_gpu_dpcpp/lib -L/export/intel/inteloneapi/mpi/2021.1-beta06//libfabric/lib -L/export/intel/inteloneapi/mpi/2021.1-beta06//lib/release -L/export/intel/inteloneapi/mpi/2021.1-beta06//lib -L/export/intel/inteloneapi/mkl/2021.1-beta06/lib/intel64 -L/export/intel/inteloneapi/ipp/latest/lib/intel64 -L/export/intel/inteloneapi/ipp/latest/../../compiler/latest/linux/compiler/lib/intel64 -L/export/intel/inteloneapi/ipp/latest/../../tbb/latest/lib/intel64/gcc4.8 -L/export/intel/inteloneapi/daal/latest/lib/intel64 -L/export/intel/inteloneapi/compiler/latest/linux/lib -L/export/intel/inteloneapi/clck/2021.1-beta06/lib/intel64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_d9688.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o
+gmake[2]: Leaving directory `/home/sorsak/STRUMPACK/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/home/sorsak/STRUMPACK/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/export/intel/inteloneapi/vpl/latest/include]
+    add: [/export/intel/inteloneapi/tbb/2021.1-beta06/env/../include]
+    add: [/export/intel/inteloneapi/oneDNN/2021.1-beta06/cpu_dpcpp_gpu_dpcpp/include]
+    add: [/export/intel/inteloneapi/mpi/2021.1-beta06//include]
+    add: [/export/intel/inteloneapi/mkl/2021.1-beta06/include]
+    add: [/export/intel/inteloneapi/ipp/latest/include]
+    add: [/export/intel/inteloneapi/dpcpp-ct/2021.1-beta06/include]
+    add: [/export/intel/inteloneapi/daal/latest/include]
+    add: [/export/intel/inteloneapi/compiler/latest/linux/include]
+    add: [/export/intel/inteloneapi/clck/2021.1-beta06/include]
+    add: [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5]
+    add: [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux]
+    add: [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward]
+    add: [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include]
+    add: [/usr/local/include]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/export/intel/inteloneapi/vpl/latest/include] ==> [/export/intel/inteloneapi/vpl/latest/include]
+  collapse include dir [/export/intel/inteloneapi/tbb/2021.1-beta06/env/../include] ==> [/export/intel/inteloneapi/tbb/2021.1-beta06/include]
+  collapse include dir [/export/intel/inteloneapi/oneDNN/2021.1-beta06/cpu_dpcpp_gpu_dpcpp/include] ==> [/export/intel/inteloneapi/oneDNN/2021.1-beta06/cpu_dpcpp_gpu_dpcpp/include]
+  collapse include dir [/export/intel/inteloneapi/mpi/2021.1-beta06//include] ==> [/export/intel/inteloneapi/mpi/2021.1-beta06/include]
+  collapse include dir [/export/intel/inteloneapi/mkl/2021.1-beta06/include] ==> [/export/intel/inteloneapi/mkl/2021.1-beta06/include]
+  collapse include dir [/export/intel/inteloneapi/ipp/latest/include] ==> [/export/intel/inteloneapi/ipp/latest/include]
+  collapse include dir [/export/intel/inteloneapi/dpcpp-ct/2021.1-beta06/include] ==> [/export/intel/inteloneapi/dpcpp-ct/2021.1-beta06/include]
+  collapse include dir [/export/intel/inteloneapi/daal/latest/include] ==> [/export/intel/inteloneapi/daal/latest/include]
+  collapse include dir [/export/intel/inteloneapi/compiler/latest/linux/include] ==> [/export/intel/inteloneapi/compiler/latest/linux/include]
+  collapse include dir [/export/intel/inteloneapi/clck/2021.1-beta06/include] ==> [/export/intel/inteloneapi/clck/2021.1-beta06/include]
+  collapse include dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5] ==> [/usr/include/c++/4.8.5]
+  collapse include dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux] ==> [/usr/include/c++/4.8.5/x86_64-redhat-linux]
+  collapse include dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward] ==> [/usr/include/c++/4.8.5/backward]
+  collapse include dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include] ==> [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/export/intel/inteloneapi/vpl/latest/include;/export/intel/inteloneapi/tbb/2021.1-beta06/include;/export/intel/inteloneapi/oneDNN/2021.1-beta06/cpu_dpcpp_gpu_dpcpp/include;/export/intel/inteloneapi/mpi/2021.1-beta06/include;/export/intel/inteloneapi/mkl/2021.1-beta06/include;/export/intel/inteloneapi/ipp/latest/include;/export/intel/inteloneapi/dpcpp-ct/2021.1-beta06/include;/export/intel/inteloneapi/daal/latest/include;/export/intel/inteloneapi/compiler/latest/linux/include;/export/intel/inteloneapi/clck/2021.1-beta06/include;/usr/include/c++/4.8.5;/usr/include/c++/4.8.5/x86_64-redhat-linux;/usr/include/c++/4.8.5/backward;/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include;/usr/local/include;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/sorsak/STRUMPACK/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake cmTC_d9688/fast && gmake[1]: Entering directory `/home/sorsak/STRUMPACK/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_d9688.dir/build.make CMakeFiles/cmTC_d9688.dir/build]
+  ignore line: [gmake[2]: Entering directory `/home/sorsak/STRUMPACK/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_d9688.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++    -v -o CMakeFiles/cmTC_d9688.dir/CMakeCXXCompilerABI.cpp.o -c /opt/ohpc/pub/utils/cmake/3.15.4/share/cmake-3.15/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [Target: x86_64-redhat-linux]
+  ignore line: [Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++,objc,obj-c++,java,fortran,ada,go,lto --enable-plugin --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/cloog-install --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.5 20150623 (Red Hat 4.8.5-16) (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d9688.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/cc1plus -quiet -v -D_GNU_SOURCE /opt/ohpc/pub/utils/cmake/3.15.4/share/cmake-3.15/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_d9688.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccLXYxMO.s]
+  ignore line: [GNU C++ (GCC) version 4.8.5 20150623 (Red Hat 4.8.5-16) (x86_64-redhat-linux)]
+  ignore line: [	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-16), GMP version 6.0.0, MPFR version 3.1.1, MPC version 1.0.1]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../x86_64-redhat-linux/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /export/intel/inteloneapi/vpl/latest/include]
+  ignore line: [ /export/intel/inteloneapi/tbb/2021.1-beta06/env/../include]
+  ignore line: [ /export/intel/inteloneapi/oneDNN/2021.1-beta06/cpu_dpcpp_gpu_dpcpp/include]
+  ignore line: [ /export/intel/inteloneapi/mpi/2021.1-beta06//include]
+  ignore line: [ /export/intel/inteloneapi/mkl/2021.1-beta06/include]
+  ignore line: [ /export/intel/inteloneapi/ipp/latest/include]
+  ignore line: [ /export/intel/inteloneapi/dpcpp-ct/2021.1-beta06/include]
+  ignore line: [ /export/intel/inteloneapi/daal/latest/include]
+  ignore line: [ /export/intel/inteloneapi/compiler/latest/linux/include]
+  ignore line: [ /export/intel/inteloneapi/clck/2021.1-beta06/include]
+  ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5]
+  ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux]
+  ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++ (GCC) version 4.8.5 20150623 (Red Hat 4.8.5-16) (x86_64-redhat-linux)]
+  ignore line: [	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-16), GMP version 6.0.0, MPFR version 3.1.1, MPC version 1.0.1]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: efa234c49a4035e782cc33b8ca41a2ee]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d9688.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_d9688.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccLXYxMO.s]
+  ignore line: [GNU assembler version 2.25.1 (x86_64-redhat-linux) using BFD version version 2.25.1-32.base.el7_4.2 ]
+  ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/export/intel/inteloneapi/vpl/latest/lib/:/export/intel/inteloneapi/tbb/2021.1-beta06/env/../lib/intel64/gcc4.8/:/export/intel/inteloneapi/oneDNN/2021.1-beta06/cpu_dpcpp_gpu_dpcpp/lib/:/export/intel/inteloneapi/mpi/2021.1-beta06//libfabric/lib/:/export/intel/inteloneapi/mpi/2021.1-beta06//lib/release/:/export/intel/inteloneapi/mpi/2021.1-beta06//lib/:/export/intel/inteloneapi/mkl/2021.1-beta06/lib/intel64/:/export/intel/inteloneapi/ipp/latest/lib/intel64/:/export/intel/inteloneapi/ipp/latest/../../compiler/latest/linux/compiler/lib/intel64/:/export/intel/inteloneapi/ipp/latest/../../tbb/latest/lib/intel64/gcc4.8/:/export/intel/inteloneapi/daal/latest/lib/intel64/:/export/intel/inteloneapi/compiler/latest/linux/lib/:/export/intel/inteloneapi/clck/2021.1-beta06/lib/intel64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d9688.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking CXX executable cmTC_d9688]
+  ignore line: [/opt/ohpc/pub/utils/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d9688.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_d9688.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_d9688 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper]
+  ignore line: [Target: x86_64-redhat-linux]
+  ignore line: [Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++,objc,obj-c++,java,fortran,ada,go,lto --enable-plugin --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/cloog-install --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.5 20150623 (Red Hat 4.8.5-16) (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/export/intel/inteloneapi/vpl/latest/lib/:/export/intel/inteloneapi/tbb/2021.1-beta06/env/../lib/intel64/gcc4.8/:/export/intel/inteloneapi/oneDNN/2021.1-beta06/cpu_dpcpp_gpu_dpcpp/lib/:/export/intel/inteloneapi/mpi/2021.1-beta06//libfabric/lib/:/export/intel/inteloneapi/mpi/2021.1-beta06//lib/release/:/export/intel/inteloneapi/mpi/2021.1-beta06//lib/:/export/intel/inteloneapi/mkl/2021.1-beta06/lib/intel64/:/export/intel/inteloneapi/ipp/latest/lib/intel64/:/export/intel/inteloneapi/ipp/latest/../../compiler/latest/linux/compiler/lib/intel64/:/export/intel/inteloneapi/ipp/latest/../../tbb/latest/lib/intel64/gcc4.8/:/export/intel/inteloneapi/daal/latest/lib/intel64/:/export/intel/inteloneapi/compiler/latest/linux/lib/:/export/intel/inteloneapi/clck/2021.1-beta06/lib/intel64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_d9688' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_d9688 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/export/intel/inteloneapi/vpl/latest/lib -L/export/intel/inteloneapi/tbb/2021.1-beta06/env/../lib/intel64/gcc4.8 -L/export/intel/inteloneapi/oneDNN/2021.1-beta06/cpu_dpcpp_gpu_dpcpp/lib -L/export/intel/inteloneapi/mpi/2021.1-beta06//libfabric/lib -L/export/intel/inteloneapi/mpi/2021.1-beta06//lib/release -L/export/intel/inteloneapi/mpi/2021.1-beta06//lib -L/export/intel/inteloneapi/mkl/2021.1-beta06/lib/intel64 -L/export/intel/inteloneapi/ipp/latest/lib/intel64 -L/export/intel/inteloneapi/ipp/latest/../../compiler/latest/linux/compiler/lib/intel64 -L/export/intel/inteloneapi/ipp/latest/../../tbb/latest/lib/intel64/gcc4.8 -L/export/intel/inteloneapi/daal/latest/lib/intel64 -L/export/intel/inteloneapi/compiler/latest/linux/lib -L/export/intel/inteloneapi/clck/2021.1-beta06/lib/intel64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_d9688.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o]
+    arg [/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--no-add-needed] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_d9688] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/export/intel/inteloneapi/vpl/latest/lib] ==> dir [/export/intel/inteloneapi/vpl/latest/lib]
+    arg [-L/export/intel/inteloneapi/tbb/2021.1-beta06/env/../lib/intel64/gcc4.8] ==> dir [/export/intel/inteloneapi/tbb/2021.1-beta06/env/../lib/intel64/gcc4.8]
+    arg [-L/export/intel/inteloneapi/oneDNN/2021.1-beta06/cpu_dpcpp_gpu_dpcpp/lib] ==> dir [/export/intel/inteloneapi/oneDNN/2021.1-beta06/cpu_dpcpp_gpu_dpcpp/lib]
+    arg [-L/export/intel/inteloneapi/mpi/2021.1-beta06//libfabric/lib] ==> dir [/export/intel/inteloneapi/mpi/2021.1-beta06//libfabric/lib]
+    arg [-L/export/intel/inteloneapi/mpi/2021.1-beta06//lib/release] ==> dir [/export/intel/inteloneapi/mpi/2021.1-beta06//lib/release]
+    arg [-L/export/intel/inteloneapi/mpi/2021.1-beta06//lib] ==> dir [/export/intel/inteloneapi/mpi/2021.1-beta06//lib]
+    arg [-L/export/intel/inteloneapi/mkl/2021.1-beta06/lib/intel64] ==> dir [/export/intel/inteloneapi/mkl/2021.1-beta06/lib/intel64]
+    arg [-L/export/intel/inteloneapi/ipp/latest/lib/intel64] ==> dir [/export/intel/inteloneapi/ipp/latest/lib/intel64]
+    arg [-L/export/intel/inteloneapi/ipp/latest/../../compiler/latest/linux/compiler/lib/intel64] ==> dir [/export/intel/inteloneapi/ipp/latest/../../compiler/latest/linux/compiler/lib/intel64]
+    arg [-L/export/intel/inteloneapi/ipp/latest/../../tbb/latest/lib/intel64/gcc4.8] ==> dir [/export/intel/inteloneapi/ipp/latest/../../tbb/latest/lib/intel64/gcc4.8]
+    arg [-L/export/intel/inteloneapi/daal/latest/lib/intel64] ==> dir [/export/intel/inteloneapi/daal/latest/lib/intel64]
+    arg [-L/export/intel/inteloneapi/compiler/latest/linux/lib] ==> dir [/export/intel/inteloneapi/compiler/latest/linux/lib]
+    arg [-L/export/intel/inteloneapi/clck/2021.1-beta06/lib/intel64] ==> dir [/export/intel/inteloneapi/clck/2021.1-beta06/lib/intel64]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..]
+    arg [CMakeFiles/cmTC_d9688.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5] ==> [/usr/lib/gcc/x86_64-redhat-linux/4.8.5]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64] ==> [/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/export/intel/inteloneapi/vpl/latest/lib] ==> [/export/intel/inteloneapi/vpl/latest/lib]
+  collapse library dir [/export/intel/inteloneapi/tbb/2021.1-beta06/env/../lib/intel64/gcc4.8] ==> [/export/intel/inteloneapi/tbb/2021.1-beta06/lib/intel64/gcc4.8]
+  collapse library dir [/export/intel/inteloneapi/oneDNN/2021.1-beta06/cpu_dpcpp_gpu_dpcpp/lib] ==> [/export/intel/inteloneapi/oneDNN/2021.1-beta06/cpu_dpcpp_gpu_dpcpp/lib]
+  collapse library dir [/export/intel/inteloneapi/mpi/2021.1-beta06//libfabric/lib] ==> [/export/intel/inteloneapi/mpi/2021.1-beta06/libfabric/lib]
+  collapse library dir [/export/intel/inteloneapi/mpi/2021.1-beta06//lib/release] ==> [/export/intel/inteloneapi/mpi/2021.1-beta06/lib/release]
+  collapse library dir [/export/intel/inteloneapi/mpi/2021.1-beta06//lib] ==> [/export/intel/inteloneapi/mpi/2021.1-beta06/lib]
+  collapse library dir [/export/intel/inteloneapi/mkl/2021.1-beta06/lib/intel64] ==> [/export/intel/inteloneapi/mkl/2021.1-beta06/lib/intel64]
+  collapse library dir [/export/intel/inteloneapi/ipp/latest/lib/intel64] ==> [/export/intel/inteloneapi/ipp/latest/lib/intel64]
+  collapse library dir [/export/intel/inteloneapi/ipp/latest/../../compiler/latest/linux/compiler/lib/intel64] ==> [/export/intel/inteloneapi/compiler/latest/linux/compiler/lib/intel64]
+  collapse library dir [/export/intel/inteloneapi/ipp/latest/../../tbb/latest/lib/intel64/gcc4.8] ==> [/export/intel/inteloneapi/tbb/latest/lib/intel64/gcc4.8]
+  collapse library dir [/export/intel/inteloneapi/daal/latest/lib/intel64] ==> [/export/intel/inteloneapi/daal/latest/lib/intel64]
+  collapse library dir [/export/intel/inteloneapi/compiler/latest/linux/lib] ==> [/export/intel/inteloneapi/compiler/latest/linux/lib]
+  collapse library dir [/export/intel/inteloneapi/clck/2021.1-beta06/lib/intel64] ==> [/export/intel/inteloneapi/clck/2021.1-beta06/lib/intel64]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/usr/lib/gcc/x86_64-redhat-linux/4.8.5;/usr/lib64;/lib64;/export/intel/inteloneapi/vpl/latest/lib;/export/intel/inteloneapi/tbb/2021.1-beta06/lib/intel64/gcc4.8;/export/intel/inteloneapi/oneDNN/2021.1-beta06/cpu_dpcpp_gpu_dpcpp/lib;/export/intel/inteloneapi/mpi/2021.1-beta06/libfabric/lib;/export/intel/inteloneapi/mpi/2021.1-beta06/lib/release;/export/intel/inteloneapi/mpi/2021.1-beta06/lib;/export/intel/inteloneapi/mkl/2021.1-beta06/lib/intel64;/export/intel/inteloneapi/ipp/latest/lib/intel64;/export/intel/inteloneapi/compiler/latest/linux/compiler/lib/intel64;/export/intel/inteloneapi/tbb/latest/lib/intel64/gcc4.8;/export/intel/inteloneapi/daal/latest/lib/intel64;/export/intel/inteloneapi/compiler/latest/linux/lib;/export/intel/inteloneapi/clck/2021.1-beta06/lib/intel64;/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1y] compiler features compiled with the following output:
+Change Dir: /home/sorsak/STRUMPACK/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_c0c69/fast && gmake[1]: Entering directory `/home/sorsak/STRUMPACK/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTC_c0c69.dir/build.make CMakeFiles/cmTC_c0c69.dir/build
+gmake[2]: Entering directory `/home/sorsak/STRUMPACK/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c0c69.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1y -o CMakeFiles/cmTC_c0c69.dir/feature_tests.cxx.o -c /home/sorsak/STRUMPACK/metis-5.1.0/build/Linux-x86_64/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_c0c69
+/opt/ohpc/pub/utils/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c0c69.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_c0c69.dir/feature_tests.cxx.o  -o cmTC_c0c69 
+gmake[2]: Leaving directory `/home/sorsak/STRUMPACK/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/home/sorsak/STRUMPACK/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+
+
+
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+Determining if the include file execinfo.h exists passed with the following output:
+Change Dir: /home/sorsak/STRUMPACK/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_e2982/fast && gmake[1]: Entering directory `/home/sorsak/STRUMPACK/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTC_e2982.dir/build.make CMakeFiles/cmTC_e2982.dir/build
+gmake[2]: Entering directory `/home/sorsak/STRUMPACK/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e2982.dir/CheckIncludeFile.c.o
+/export/intel/inteloneapi/compiler/latest/linux/bin/intel64/icc    -o CMakeFiles/cmTC_e2982.dir/CheckIncludeFile.c.o   -c /home/sorsak/STRUMPACK/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_e2982
+/opt/ohpc/pub/utils/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2982.dir/link.txt --verbose=1
+/export/intel/inteloneapi/compiler/latest/linux/bin/intel64/icc      -rdynamic CMakeFiles/cmTC_e2982.dir/CheckIncludeFile.c.o  -o cmTC_e2982 
+gmake[2]: Leaving directory `/home/sorsak/STRUMPACK/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/home/sorsak/STRUMPACK/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function getline exists passed with the following output:
+Change Dir: /home/sorsak/STRUMPACK/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_b5e3f/fast && gmake[1]: Entering directory `/home/sorsak/STRUMPACK/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTC_b5e3f.dir/build.make CMakeFiles/cmTC_b5e3f.dir/build
+gmake[2]: Entering directory `/home/sorsak/STRUMPACK/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b5e3f.dir/CheckFunctionExists.c.o
+/export/intel/inteloneapi/compiler/latest/linux/bin/intel64/icc   -DCHECK_FUNCTION_EXISTS=getline   -o CMakeFiles/cmTC_b5e3f.dir/CheckFunctionExists.c.o   -c /opt/ohpc/pub/utils/cmake/3.15.4/share/cmake-3.15/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b5e3f
+/opt/ohpc/pub/utils/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b5e3f.dir/link.txt --verbose=1
+/export/intel/inteloneapi/compiler/latest/linux/bin/intel64/icc  -DCHECK_FUNCTION_EXISTS=getline    -rdynamic CMakeFiles/cmTC_b5e3f.dir/CheckFunctionExists.c.o  -o cmTC_b5e3f 
+gmake[2]: Leaving directory `/home/sorsak/STRUMPACK/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/home/sorsak/STRUMPACK/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+
+
+

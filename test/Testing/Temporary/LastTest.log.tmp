@@ -1,0 +1,1160 @@
+Start testing: Jun 23 15:39 CDT
+----------------------------------------------------------
+Unable to find executable: /home/sorsak/STRUMPACK/test/test_HSS_seq
+1/174 Testing: user_test_HSS_seq
+1/174 Test: user_test_HSS_seq
+Command: "" "T" "100"
+Directory: /home/sorsak/STRUMPACK/test
+"user_test_HSS_seq" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"user_test_HSS_seq" end time: Jun 23 15:39 CDT
+"user_test_HSS_seq" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/sorsak/STRUMPACK/test/test_sparse_seq
+2/174 Testing: user_test_sparse_seq
+2/174 Test: user_test_sparse_seq
+Command: "" "/home/sorsak/STRUMPACK/examples/data/pde900.mtx"
+Directory: /home/sorsak/STRUMPACK/test
+"user_test_sparse_seq" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"user_test_sparse_seq" end time: Jun 23 15:39 CDT
+"user_test_sparse_seq" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/174 Testing: user_test_HSS_mpi
+3/174 Test: user_test_HSS_mpi
+Command: "/usr/bin/srun" "-n" "2" "--oversubscribe" "/home/sorsak/STRUMPACK/test/test_HSS_mpi" "T" "100"
+Directory: /home/sorsak/STRUMPACK/test
+"user_test_HSS_mpi" start time: Jun 23 15:39 CDT
+Output:
+----------------------------------------------------------
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+srun: error: node01: tasks 0-1: Exited with exit code 2
+<end of output>
+Test time =   1.28 sec
+----------------------------------------------------------
+Test Failed.
+"user_test_HSS_mpi" end time: Jun 23 15:39 CDT
+"user_test_HSS_mpi" time elapsed: 00:00:01
+----------------------------------------------------------
+
+4/174 Testing: user_test_sparse_mpi
+4/174 Test: user_test_sparse_mpi
+Command: "/usr/bin/srun" "-n" "2" "--oversubscribe" "/home/sorsak/STRUMPACK/test/test_sparse_mpi" "/home/sorsak/STRUMPACK/examples/data/pde900.mtx"
+Directory: /home/sorsak/STRUMPACK/test
+"user_test_sparse_mpi" start time: Jun 23 15:39 CDT
+Output:
+----------------------------------------------------------
+srun: job 2023 queued and waiting for resources
+srun: job 2023 has been allocated resources
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_sparse_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_sparse_mpi: No such file or directory
+srun: error: node01: tasks 0-1: Exited with exit code 2
+<end of output>
+Test time =   0.78 sec
+----------------------------------------------------------
+Test Failed.
+"user_test_sparse_mpi" end time: Jun 23 15:39 CDT
+"user_test_sparse_mpi" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/174 Testing: user_structure_reuse_mpi
+5/174 Test: user_structure_reuse_mpi
+Command: "/usr/bin/srun" "-n" "2" "--oversubscribe" "/home/sorsak/STRUMPACK/test/test_structure_reuse_mpi" "/home/sorsak/STRUMPACK/examples/data/pde900.mtx"
+Directory: /home/sorsak/STRUMPACK/test
+"user_structure_reuse_mpi" start time: Jun 23 15:39 CDT
+Output:
+----------------------------------------------------------
+srun: job 2024 queued and waiting for resources
+srun: job 2024 has been allocated resources
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_structure_reuse_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_structure_reuse_mpi: No such file or directory
+srun: error: node01: tasks 0-1: Exited with exit code 2
+<end of output>
+Test time =   0.67 sec
+----------------------------------------------------------
+Test Failed.
+"user_structure_reuse_mpi" end time: Jun 23 15:39 CDT
+"user_structure_reuse_mpi" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/sorsak/STRUMPACK/test/test_HSS_seq
+6/174 Testing: HSS_seq_1
+6/174 Test: HSS_seq_1
+Command: "" "L" "10" "--hss_leaf_size" "3" "--hss_rel_tol" "1e-5" "--hss_abs_tol" "1e-10" "--hss_disable_sync" "--hss_compression_algorithm" "stable" "--hss_d0" "32" "--hss_dd" "4"
+Directory: /home/sorsak/STRUMPACK/test
+"HSS_seq_1" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"HSS_seq_1" end time: Jun 23 15:39 CDT
+"HSS_seq_1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/sorsak/STRUMPACK/test/test_HSS_seq
+7/174 Testing: HSS_seq_2
+7/174 Test: HSS_seq_2
+Command: "" "L" "200" "--hss_leaf_size" "128" "--hss_rel_tol" "1e-1" "--hss_abs_tol" "1e-10" "--hss_enable_sync" "--hss_compression_algorithm" "original" "--hss_d0" "128" "--hss_dd" "8"
+Directory: /home/sorsak/STRUMPACK/test
+"HSS_seq_2" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"HSS_seq_2" end time: Jun 23 15:39 CDT
+"HSS_seq_2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/sorsak/STRUMPACK/test/test_HSS_seq
+8/174 Testing: HSS_seq_3
+8/174 Test: HSS_seq_3
+Command: "" "L" "1" "--hss_leaf_size" "128" "--hss_rel_tol" "1" "--hss_abs_tol" "1e-13" "--hss_disable_sync" "--hss_compression_algorithm" "original" "--hss_d0" "16" "--hss_dd" "4"
+Directory: /home/sorsak/STRUMPACK/test
+"HSS_seq_3" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"HSS_seq_3" end time: Jun 23 15:39 CDT
+"HSS_seq_3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/sorsak/STRUMPACK/test/test_HSS_seq
+9/174 Testing: HSS_seq_4
+9/174 Test: HSS_seq_4
+Command: "" "T" "200" "--hss_leaf_size" "1" "--hss_rel_tol" "1e-10" "--hss_abs_tol" "1e-10" "--hss_disable_sync" "--hss_compression_algorithm" "stable" "--hss_d0" "64" "--hss_dd" "4"
+Directory: /home/sorsak/STRUMPACK/test
+"HSS_seq_4" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"HSS_seq_4" end time: Jun 23 15:39 CDT
+"HSS_seq_4" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/sorsak/STRUMPACK/test/test_HSS_seq
+10/174 Testing: HSS_seq_5
+10/174 Test: HSS_seq_5
+Command: "" "T" "500" "--hss_leaf_size" "128" "--hss_rel_tol" "1e-10" "--hss_abs_tol" "1e-13" "--hss_disable_sync" "--hss_compression_algorithm" "stable" "--hss_d0" "16" "--hss_dd" "4"
+Directory: /home/sorsak/STRUMPACK/test
+"HSS_seq_5" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"HSS_seq_5" end time: Jun 23 15:39 CDT
+"HSS_seq_5" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/sorsak/STRUMPACK/test/test_HSS_seq
+11/174 Testing: HSS_seq_6
+11/174 Test: HSS_seq_6
+Command: "" "U" "1" "--hss_leaf_size" "1" "--hss_rel_tol" "1e-10" "--hss_abs_tol" "1e-13" "--hss_disable_sync" "--hss_compression_algorithm" "original" "--hss_d0" "32" "--hss_dd" "4"
+Directory: /home/sorsak/STRUMPACK/test
+"HSS_seq_6" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"HSS_seq_6" end time: Jun 23 15:39 CDT
+"HSS_seq_6" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/sorsak/STRUMPACK/test/test_HSS_seq
+12/174 Testing: HSS_seq_7
+12/174 Test: HSS_seq_7
+Command: "" "U" "500" "--hss_leaf_size" "1" "--hss_rel_tol" "1" "--hss_abs_tol" "1e-10" "--hss_disable_sync" "--hss_compression_algorithm" "stable" "--hss_d0" "64" "--hss_dd" "8"
+Directory: /home/sorsak/STRUMPACK/test
+"HSS_seq_7" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"HSS_seq_7" end time: Jun 23 15:39 CDT
+"HSS_seq_7" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/sorsak/STRUMPACK/test/test_HSS_seq
+13/174 Testing: HSS_seq_8
+13/174 Test: HSS_seq_8
+Command: "" "T" "200" "--hss_leaf_size" "128" "--hss_rel_tol" "1" "--hss_abs_tol" "1e-10" "--hss_disable_sync" "--hss_compression_algorithm" "stable" "--hss_d0" "128" "--hss_dd" "8"
+Directory: /home/sorsak/STRUMPACK/test
+"HSS_seq_8" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"HSS_seq_8" end time: Jun 23 15:39 CDT
+"HSS_seq_8" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/sorsak/STRUMPACK/test/test_HSS_seq
+14/174 Testing: HSS_seq_9
+14/174 Test: HSS_seq_9
+Command: "" "L" "10" "--hss_leaf_size" "16" "--hss_rel_tol" "1" "--hss_abs_tol" "1e-10" "--hss_enable_sync" "--hss_compression_algorithm" "stable" "--hss_d0" "64" "--hss_dd" "4"
+Directory: /home/sorsak/STRUMPACK/test
+"HSS_seq_9" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"HSS_seq_9" end time: Jun 23 15:39 CDT
+"HSS_seq_9" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/sorsak/STRUMPACK/test/test_HSS_seq
+15/174 Testing: HSS_seq_10
+15/174 Test: HSS_seq_10
+Command: "" "L" "1" "--hss_leaf_size" "1" "--hss_rel_tol" "1" "--hss_abs_tol" "1e-13" "--hss_enable_sync" "--hss_compression_algorithm" "original" "--hss_d0" "64" "--hss_dd" "4"
+Directory: /home/sorsak/STRUMPACK/test
+"HSS_seq_10" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"HSS_seq_10" end time: Jun 23 15:39 CDT
+"HSS_seq_10" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/sorsak/STRUMPACK/test/test_HSS_seq
+16/174 Testing: HSS_seq_11
+16/174 Test: HSS_seq_11
+Command: "" "U" "200" "--hss_leaf_size" "16" "--hss_rel_tol" "1e-1" "--hss_abs_tol" "1e-10" "--hss_disable_sync" "--hss_compression_algorithm" "stable" "--hss_d0" "128" "--hss_dd" "4"
+Directory: /home/sorsak/STRUMPACK/test
+"HSS_seq_11" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"HSS_seq_11" end time: Jun 23 15:39 CDT
+"HSS_seq_11" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/sorsak/STRUMPACK/test/test_HSS_seq
+17/174 Testing: HSS_seq_12
+17/174 Test: HSS_seq_12
+Command: "" "L" "500" "--hss_leaf_size" "16" "--hss_rel_tol" "1e-10" "--hss_abs_tol" "1e-10" "--hss_disable_sync" "--hss_compression_algorithm" "original" "--hss_d0" "128" "--hss_dd" "8"
+Directory: /home/sorsak/STRUMPACK/test
+"HSS_seq_12" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"HSS_seq_12" end time: Jun 23 15:39 CDT
+"HSS_seq_12" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/sorsak/STRUMPACK/test/test_HSS_seq
+18/174 Testing: HSS_seq_13
+18/174 Test: HSS_seq_13
+Command: "" "U" "500" "--hss_leaf_size" "128" "--hss_rel_tol" "1e-1" "--hss_abs_tol" "1e-10" "--hss_enable_sync" "--hss_compression_algorithm" "stable" "--hss_d0" "32" "--hss_dd" "4"
+Directory: /home/sorsak/STRUMPACK/test
+"HSS_seq_13" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"HSS_seq_13" end time: Jun 23 15:39 CDT
+"HSS_seq_13" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/sorsak/STRUMPACK/test/test_HSS_seq
+19/174 Testing: HSS_seq_14
+19/174 Test: HSS_seq_14
+Command: "" "U" "200" "--hss_leaf_size" "16" "--hss_rel_tol" "1e-10" "--hss_abs_tol" "1e-10" "--hss_disable_sync" "--hss_compression_algorithm" "stable" "--hss_d0" "128" "--hss_dd" "8"
+Directory: /home/sorsak/STRUMPACK/test
+"HSS_seq_14" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"HSS_seq_14" end time: Jun 23 15:39 CDT
+"HSS_seq_14" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/sorsak/STRUMPACK/test/test_HSS_seq
+20/174 Testing: HSS_seq_15
+20/174 Test: HSS_seq_15
+Command: "" "U" "1" "--hss_leaf_size" "16" "--hss_rel_tol" "1e-10" "--hss_abs_tol" "1e-10" "--hss_enable_sync" "--hss_compression_algorithm" "stable" "--hss_d0" "128" "--hss_dd" "4"
+Directory: /home/sorsak/STRUMPACK/test
+"HSS_seq_15" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"HSS_seq_15" end time: Jun 23 15:39 CDT
+"HSS_seq_15" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/sorsak/STRUMPACK/test/test_HSS_seq
+21/174 Testing: HSS_seq_16
+21/174 Test: HSS_seq_16
+Command: "" "T" "500" "--hss_leaf_size" "16" "--hss_rel_tol" "1" "--hss_abs_tol" "1e-13" "--hss_disable_sync" "--hss_compression_algorithm" "original" "--hss_d0" "64" "--hss_dd" "8"
+Directory: /home/sorsak/STRUMPACK/test
+"HSS_seq_16" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"HSS_seq_16" end time: Jun 23 15:39 CDT
+"HSS_seq_16" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/sorsak/STRUMPACK/test/test_HSS_seq
+22/174 Testing: HSS_seq_17
+22/174 Test: HSS_seq_17
+Command: "" "T" "10" "--hss_leaf_size" "16" "--hss_rel_tol" "1e-10" "--hss_abs_tol" "1e-10" "--hss_enable_sync" "--hss_compression_algorithm" "original" "--hss_d0" "128" "--hss_dd" "4"
+Directory: /home/sorsak/STRUMPACK/test
+"HSS_seq_17" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"HSS_seq_17" end time: Jun 23 15:39 CDT
+"HSS_seq_17" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/sorsak/STRUMPACK/test/test_HSS_seq
+23/174 Testing: HSS_seq_18
+23/174 Test: HSS_seq_18
+Command: "" "L" "200" "--hss_leaf_size" "1" "--hss_rel_tol" "1e-5" "--hss_abs_tol" "1e-13" "--hss_disable_sync" "--hss_compression_algorithm" "original" "--hss_d0" "32" "--hss_dd" "8"
+Directory: /home/sorsak/STRUMPACK/test
+"HSS_seq_18" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"HSS_seq_18" end time: Jun 23 15:39 CDT
+"HSS_seq_18" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/sorsak/STRUMPACK/test/test_HSS_seq
+24/174 Testing: HSS_seq_19
+24/174 Test: HSS_seq_19
+Command: "" "T" "500" "--hss_leaf_size" "1" "--hss_rel_tol" "1" "--hss_abs_tol" "1e-10" "--hss_enable_sync" "--hss_compression_algorithm" "original" "--hss_d0" "32" "--hss_dd" "4"
+Directory: /home/sorsak/STRUMPACK/test
+"HSS_seq_19" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"HSS_seq_19" end time: Jun 23 15:39 CDT
+"HSS_seq_19" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/sorsak/STRUMPACK/test/test_HSS_seq
+25/174 Testing: HSS_seq_20
+25/174 Test: HSS_seq_20
+Command: "" "U" "200" "--hss_leaf_size" "16" "--hss_rel_tol" "1" "--hss_abs_tol" "1e-13" "--hss_disable_sync" "--hss_compression_algorithm" "stable" "--hss_d0" "16" "--hss_dd" "8"
+Directory: /home/sorsak/STRUMPACK/test
+"HSS_seq_20" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"HSS_seq_20" end time: Jun 23 15:39 CDT
+"HSS_seq_20" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/sorsak/STRUMPACK/test/test_HSS_seq
+26/174 Testing: HSS_seq_21
+26/174 Test: HSS_seq_21
+Command: "" "T" "500" "--hss_leaf_size" "1" "--hss_rel_tol" "1" "--hss_abs_tol" "1e-10" "--hss_enable_sync" "--hss_compression_algorithm" "stable" "--hss_d0" "64" "--hss_dd" "4"
+Directory: /home/sorsak/STRUMPACK/test
+"HSS_seq_21" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"HSS_seq_21" end time: Jun 23 15:39 CDT
+"HSS_seq_21" time elapsed: 00:00:00
+----------------------------------------------------------
+
+27/174 Testing: HSS_mpi_1
+27/174 Test: HSS_mpi_1
+Command: "/usr/bin/srun" "-n" "13" "--oversubscribe" "/home/sorsak/STRUMPACK/test/test_HSS_mpi" "L" "500" "--hss_leaf_size" "8" "--hss_rel_tol" "1e-4" "--hss_abs_tol" "1e-10" "--hss_enable_sync" "--hss_compression_algorithm" "original" "--hss_d0" "16" "--hss_dd" "8"
+Directory: /home/sorsak/STRUMPACK/test
+"HSS_mpi_1" start time: Jun 23 15:39 CDT
+Output:
+----------------------------------------------------------
+srun: job 2025 queued and waiting for resources
+srun: job 2025 has been allocated resources
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+srun: error: node01: tasks 0-12: Exited with exit code 2
+<end of output>
+Test time =   0.69 sec
+----------------------------------------------------------
+Test Failed.
+"HSS_mpi_1" end time: Jun 23 15:39 CDT
+"HSS_mpi_1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+28/174 Testing: HSS_mpi_2
+28/174 Test: HSS_mpi_2
+Command: "/usr/bin/srun" "-n" "13" "--oversubscribe" "/home/sorsak/STRUMPACK/test/test_HSS_mpi" "L" "500" "--hss_leaf_size" "8" "--hss_rel_tol" "1e-4" "--hss_abs_tol" "1e-10" "--hss_disable_sync" "--hss_compression_algorithm" "original" "--hss_d0" "16" "--hss_dd" "8"
+Directory: /home/sorsak/STRUMPACK/test
+"HSS_mpi_2" start time: Jun 23 15:39 CDT
+Output:
+----------------------------------------------------------
+srun: job 2026 queued and waiting for resources
+srun: job 2026 has been allocated resources
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+srun: error: node01: tasks 0-12: Exited with exit code 2
+<end of output>
+Test time =   0.68 sec
+----------------------------------------------------------
+Test Failed.
+"HSS_mpi_2" end time: Jun 23 15:39 CDT
+"HSS_mpi_2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+29/174 Testing: HSS_mpi_3
+29/174 Test: HSS_mpi_3
+Command: "/usr/bin/srun" "-n" "13" "--oversubscribe" "/home/sorsak/STRUMPACK/test/test_HSS_mpi" "L" "500" "--hss_leaf_size" "8" "--hss_rel_tol" "1e-4" "--hss_abs_tol" "1e-10" "--hss_enable_sync" "--hss_compression_algorithm" "stable" "--hss_d0" "16" "--hss_dd" "8"
+Directory: /home/sorsak/STRUMPACK/test
+"HSS_mpi_3" start time: Jun 23 15:39 CDT
+Output:
+----------------------------------------------------------
+srun: job 2027 queued and waiting for resources
+srun: job 2027 has been allocated resources
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+srun: error: node01: tasks 0-12: Exited with exit code 2
+<end of output>
+Test time =   0.69 sec
+----------------------------------------------------------
+Test Failed.
+"HSS_mpi_3" end time: Jun 23 15:39 CDT
+"HSS_mpi_3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+30/174 Testing: HSS_mpi_4
+30/174 Test: HSS_mpi_4
+Command: "/usr/bin/srun" "-n" "13" "--oversubscribe" "/home/sorsak/STRUMPACK/test/test_HSS_mpi" "L" "500" "--hss_leaf_size" "8" "--hss_rel_tol" "1e-4" "--hss_abs_tol" "1e-10" "--hss_disable_sync" "--hss_compression_algorithm" "stable" "--hss_d0" "16" "--hss_dd" "8"
+Directory: /home/sorsak/STRUMPACK/test
+"HSS_mpi_4" start time: Jun 23 15:39 CDT
+Output:
+----------------------------------------------------------
+srun: job 2028 queued and waiting for resources
+srun: job 2028 has been allocated resources
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+srun: error: node01: tasks 0-12: Exited with exit code 2
+<end of output>
+Test time =   0.66 sec
+----------------------------------------------------------
+Test Failed.
+"HSS_mpi_4" end time: Jun 23 15:39 CDT
+"HSS_mpi_4" time elapsed: 00:00:00
+----------------------------------------------------------
+
+31/174 Testing: HSS_mpi_5
+31/174 Test: HSS_mpi_5
+Command: "/usr/bin/srun" "-n" "19" "--oversubscribe" "/home/sorsak/STRUMPACK/test/test_HSS_mpi" "L" "10" "--hss_leaf_size" "3" "--hss_rel_tol" "1e-10" "--hss_abs_tol" "1e-10" "--hss_disable_sync" "--hss_compression_algorithm" "original" "--hss_d0" "32" "--hss_dd" "4"
+Directory: /home/sorsak/STRUMPACK/test
+"HSS_mpi_5" start time: Jun 23 15:39 CDT
+Output:
+----------------------------------------------------------
+srun: job 2029 queued and waiting for resources
+srun: job 2029 has been allocated resources
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+srun: error: node01: tasks 0-18: Exited with exit code 2
+<end of output>
+Test time =   0.69 sec
+----------------------------------------------------------
+Test Failed.
+"HSS_mpi_5" end time: Jun 23 15:39 CDT
+"HSS_mpi_5" time elapsed: 00:00:00
+----------------------------------------------------------
+
+32/174 Testing: HSS_mpi_6
+32/174 Test: HSS_mpi_6
+Command: "/usr/bin/srun" "-n" "16" "--oversubscribe" "/home/sorsak/STRUMPACK/test/test_HSS_mpi" "T" "200" "--hss_leaf_size" "1" "--hss_rel_tol" "1e-5" "--hss_abs_tol" "1e-13" "--hss_enable_sync" "--hss_compression_algorithm" "stable" "--hss_d0" "16" "--hss_dd" "4"
+Directory: /home/sorsak/STRUMPACK/test
+"HSS_mpi_6" start time: Jun 23 15:39 CDT
+Output:
+----------------------------------------------------------
+srun: job 2030 queued and waiting for resources
+srun: job 2030 has been allocated resources
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+srun: error: node01: tasks 0-15: Exited with exit code 2
+<end of output>
+Test time =   0.66 sec
+----------------------------------------------------------
+Test Failed.
+"HSS_mpi_6" end time: Jun 23 15:40 CDT
+"HSS_mpi_6" time elapsed: 00:00:00
+----------------------------------------------------------
+
+33/174 Testing: HSS_mpi_7
+33/174 Test: HSS_mpi_7
+Command: "/usr/bin/srun" "-n" "2" "--oversubscribe" "/home/sorsak/STRUMPACK/test/test_HSS_mpi" "U" "1" "--hss_leaf_size" "128" "--hss_rel_tol" "1e-1" "--hss_abs_tol" "1e-13" "--hss_disable_sync" "--hss_compression_algorithm" "stable" "--hss_d0" "64" "--hss_dd" "4"
+Directory: /home/sorsak/STRUMPACK/test
+"HSS_mpi_7" start time: Jun 23 15:40 CDT
+Output:
+----------------------------------------------------------
+srun: job 2031 queued and waiting for resources
+srun: job 2031 has been allocated resources
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+srun: error: node01: tasks 0-1: Exited with exit code 2
+<end of output>
+Test time =   0.69 sec
+----------------------------------------------------------
+Test Failed.
+"HSS_mpi_7" end time: Jun 23 15:40 CDT
+"HSS_mpi_7" time elapsed: 00:00:00
+----------------------------------------------------------
+
+34/174 Testing: HSS_mpi_8
+34/174 Test: HSS_mpi_8
+Command: "/usr/bin/srun" "-n" "17" "--oversubscribe" "/home/sorsak/STRUMPACK/test/test_HSS_mpi" "T" "500" "--hss_leaf_size" "128" "--hss_rel_tol" "1e-10" "--hss_abs_tol" "1e-10" "--hss_enable_sync" "--hss_compression_algorithm" "original" "--hss_d0" "128" "--hss_dd" "8"
+Directory: /home/sorsak/STRUMPACK/test
+"HSS_mpi_8" start time: Jun 23 15:40 CDT
+Output:
+----------------------------------------------------------
+srun: job 2032 queued and waiting for resources
+srun: job 2032 has been allocated resources
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+srun: error: node01: tasks 0-16: Exited with exit code 2
+<end of output>
+Test time =   0.64 sec
+----------------------------------------------------------
+Test Failed.
+"HSS_mpi_8" end time: Jun 23 15:40 CDT
+"HSS_mpi_8" time elapsed: 00:00:00
+----------------------------------------------------------
+
+35/174 Testing: HSS_mpi_9
+35/174 Test: HSS_mpi_9
+Command: "/usr/bin/srun" "-n" "19" "--oversubscribe" "/home/sorsak/STRUMPACK/test/test_HSS_mpi" "U" "10" "--hss_leaf_size" "3" "--hss_rel_tol" "1e-1" "--hss_abs_tol" "1e-13" "--hss_disable_sync" "--hss_compression_algorithm" "stable" "--hss_d0" "16" "--hss_dd" "4"
+Directory: /home/sorsak/STRUMPACK/test
+"HSS_mpi_9" start time: Jun 23 15:40 CDT
+Output:
+----------------------------------------------------------
+srun: job 2033 queued and waiting for resources
+srun: job 2033 has been allocated resources
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+srun: error: node01: tasks 0-18: Exited with exit code 2
+<end of output>
+Test time =   1.05 sec
+----------------------------------------------------------
+Test Failed.
+"HSS_mpi_9" end time: Jun 23 15:40 CDT
+"HSS_mpi_9" time elapsed: 00:00:01
+----------------------------------------------------------
+
+36/174 Testing: HSS_mpi_10
+36/174 Test: HSS_mpi_10
+Command: "/usr/bin/srun" "-n" "2" "--oversubscribe" "/home/sorsak/STRUMPACK/test/test_HSS_mpi" "L" "1" "--hss_leaf_size" "16" "--hss_rel_tol" "1" "--hss_abs_tol" "1e-13" "--hss_enable_sync" "--hss_compression_algorithm" "original" "--hss_d0" "16" "--hss_dd" "8"
+Directory: /home/sorsak/STRUMPACK/test
+"HSS_mpi_10" start time: Jun 23 15:40 CDT
+Output:
+----------------------------------------------------------
+srun: job 2034 queued and waiting for resources
+srun: job 2034 has been allocated resources
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+srun: error: node01: tasks 0-1: Exited with exit code 2
+<end of output>
+Test time =   3.29 sec
+----------------------------------------------------------
+Test Failed.
+"HSS_mpi_10" end time: Jun 23 15:40 CDT
+"HSS_mpi_10" time elapsed: 00:00:03
+----------------------------------------------------------
+
+37/174 Testing: HSS_mpi_11
+37/174 Test: HSS_mpi_11
+Command: "/usr/bin/srun" "-n" "13" "--oversubscribe" "/home/sorsak/STRUMPACK/test/test_HSS_mpi" "T" "200" "--hss_leaf_size" "128" "--hss_rel_tol" "1e-10" "--hss_abs_tol" "1e-10" "--hss_disable_sync" "--hss_compression_algorithm" "stable" "--hss_d0" "64" "--hss_dd" "4"
+Directory: /home/sorsak/STRUMPACK/test
+"HSS_mpi_11" start time: Jun 23 15:40 CDT
+Output:
+----------------------------------------------------------
+srun: job 2035 queued and waiting for resources
+srun: job 2035 has been allocated resources
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+srun: error: node01: tasks 0-12: Exited with exit code 2
+<end of output>
+Test time =   0.77 sec
+----------------------------------------------------------
+Test Failed.
+"HSS_mpi_11" end time: Jun 23 15:40 CDT
+"HSS_mpi_11" time elapsed: 00:00:00
+----------------------------------------------------------
+
+38/174 Testing: HSS_mpi_12
+38/174 Test: HSS_mpi_12
+Command: "/usr/bin/srun" "-n" "17" "--oversubscribe" "/home/sorsak/STRUMPACK/test/test_HSS_mpi" "T" "1" "--hss_leaf_size" "3" "--hss_rel_tol" "1e-10" "--hss_abs_tol" "1e-10" "--hss_enable_sync" "--hss_compression_algorithm" "stable" "--hss_d0" "64" "--hss_dd" "4"
+Directory: /home/sorsak/STRUMPACK/test
+"HSS_mpi_12" start time: Jun 23 15:40 CDT
+Output:
+----------------------------------------------------------
+srun: job 2036 queued and waiting for resources
+srun: job 2036 has been allocated resources
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+srun: error: node01: tasks 0-16: Exited with exit code 2
+<end of output>
+Test time =   1.83 sec
+----------------------------------------------------------
+Test Failed.
+"HSS_mpi_12" end time: Jun 23 15:40 CDT
+"HSS_mpi_12" time elapsed: 00:00:01
+----------------------------------------------------------
+
+39/174 Testing: HSS_mpi_13
+39/174 Test: HSS_mpi_13
+Command: "/usr/bin/srun" "-n" "19" "--oversubscribe" "/home/sorsak/STRUMPACK/test/test_HSS_mpi" "T" "10" "--hss_leaf_size" "128" "--hss_rel_tol" "1e-1" "--hss_abs_tol" "1e-10" "--hss_enable_sync" "--hss_compression_algorithm" "original" "--hss_d0" "64" "--hss_dd" "8"
+Directory: /home/sorsak/STRUMPACK/test
+"HSS_mpi_13" start time: Jun 23 15:40 CDT
+Output:
+----------------------------------------------------------
+srun: job 2037 queued and waiting for resources
+srun: job 2037 has been allocated resources
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+srun: error: node01: tasks 0-18: Exited with exit code 2
+<end of output>
+Test time =   0.90 sec
+----------------------------------------------------------
+Test Failed.
+"HSS_mpi_13" end time: Jun 23 15:40 CDT
+"HSS_mpi_13" time elapsed: 00:00:00
+----------------------------------------------------------
+
+40/174 Testing: HSS_mpi_14
+40/174 Test: HSS_mpi_14
+Command: "/usr/bin/srun" "-n" "9" "--oversubscribe" "/home/sorsak/STRUMPACK/test/test_HSS_mpi" "T" "10" "--hss_leaf_size" "128" "--hss_rel_tol" "1" "--hss_abs_tol" "1e-10" "--hss_enable_sync" "--hss_compression_algorithm" "stable" "--hss_d0" "64" "--hss_dd" "4"
+Directory: /home/sorsak/STRUMPACK/test
+"HSS_mpi_14" start time: Jun 23 15:40 CDT
+Output:
+----------------------------------------------------------
+srun: job 2038 queued and waiting for resources
+srun: job 2038 has been allocated resources
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+srun: error: node01: tasks 0-8: Exited with exit code 2
+<end of output>
+Test time =   0.84 sec
+----------------------------------------------------------
+Test Failed.
+"HSS_mpi_14" end time: Jun 23 15:40 CDT
+"HSS_mpi_14" time elapsed: 00:00:00
+----------------------------------------------------------
+
+41/174 Testing: HSS_mpi_15
+41/174 Test: HSS_mpi_15
+Command: "/usr/bin/srun" "-n" "13" "--oversubscribe" "/home/sorsak/STRUMPACK/test/test_HSS_mpi" "T" "200" "--hss_leaf_size" "1" "--hss_rel_tol" "1" "--hss_abs_tol" "1e-10" "--hss_enable_sync" "--hss_compression_algorithm" "stable" "--hss_d0" "64" "--hss_dd" "4"
+Directory: /home/sorsak/STRUMPACK/test
+"HSS_mpi_15" start time: Jun 23 15:40 CDT
+Output:
+----------------------------------------------------------
+srun: job 2039 queued and waiting for resources
+srun: job 2039 has been allocated resources
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+srun: error: node01: tasks 0-12: Exited with exit code 2
+<end of output>
+Test time =   1.80 sec
+----------------------------------------------------------
+Test Failed.
+"HSS_mpi_15" end time: Jun 23 15:40 CDT
+"HSS_mpi_15" time elapsed: 00:00:01
+----------------------------------------------------------
+
+42/174 Testing: HSS_mpi_16
+42/174 Test: HSS_mpi_16
+Command: "/usr/bin/srun" "-n" "13" "--oversubscribe" "/home/sorsak/STRUMPACK/test/test_HSS_mpi" "U" "200" "--hss_leaf_size" "1" "--hss_rel_tol" "1e-10" "--hss_abs_tol" "1e-13" "--hss_disable_sync" "--hss_compression_algorithm" "original" "--hss_d0" "16" "--hss_dd" "4"
+Directory: /home/sorsak/STRUMPACK/test
+"HSS_mpi_16" start time: Jun 23 15:40 CDT
+Output:
+----------------------------------------------------------
+srun: job 2040 queued and waiting for resources
+srun: job 2040 has been allocated resources
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+srun: error: node01: tasks 0-12: Exited with exit code 2
+<end of output>
+Test time =   1.90 sec
+----------------------------------------------------------
+Test Failed.
+"HSS_mpi_16" end time: Jun 23 15:40 CDT
+"HSS_mpi_16" time elapsed: 00:00:01
+----------------------------------------------------------
+
+43/174 Testing: HSS_mpi_17
+43/174 Test: HSS_mpi_17
+Command: "/usr/bin/srun" "-n" "13" "--oversubscribe" "/home/sorsak/STRUMPACK/test/test_HSS_mpi" "T" "1" "--hss_leaf_size" "128" "--hss_rel_tol" "1" "--hss_abs_tol" "1e-10" "--hss_enable_sync" "--hss_compression_algorithm" "stable" "--hss_d0" "16" "--hss_dd" "8"
+Directory: /home/sorsak/STRUMPACK/test
+"HSS_mpi_17" start time: Jun 23 15:40 CDT
+Output:
+----------------------------------------------------------
+srun: job 2041 queued and waiting for resources
+srun: job 2041 has been allocated resources
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+srun: error: node01: tasks 0-12: Exited with exit code 2
+<end of output>
+Test time =   0.85 sec
+----------------------------------------------------------
+Test Failed.
+"HSS_mpi_17" end time: Jun 23 15:40 CDT
+"HSS_mpi_17" time elapsed: 00:00:00
+----------------------------------------------------------
+
+44/174 Testing: HSS_mpi_18
+44/174 Test: HSS_mpi_18
+Command: "/usr/bin/srun" "-n" "13" "--oversubscribe" "/home/sorsak/STRUMPACK/test/test_HSS_mpi" "T" "1" "--hss_leaf_size" "16" "--hss_rel_tol" "1e-1" "--hss_abs_tol" "1e-13" "--hss_disable_sync" "--hss_compression_algorithm" "stable" "--hss_d0" "64" "--hss_dd" "8"
+Directory: /home/sorsak/STRUMPACK/test
+"HSS_mpi_18" start time: Jun 23 15:40 CDT
+Output:
+----------------------------------------------------------
+srun: job 2042 queued and waiting for resources
+srun: job 2042 has been allocated resources
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+srun: error: node01: tasks 0-12: Exited with exit code 2
+<end of output>
+Test time =   0.87 sec
+----------------------------------------------------------
+Test Failed.
+"HSS_mpi_18" end time: Jun 23 15:40 CDT
+"HSS_mpi_18" time elapsed: 00:00:00
+----------------------------------------------------------
+
+45/174 Testing: HSS_mpi_19
+45/174 Test: HSS_mpi_19
+Command: "/usr/bin/srun" "-n" "16" "--oversubscribe" "/home/sorsak/STRUMPACK/test/test_HSS_mpi" "L" "10" "--hss_leaf_size" "16" "--hss_rel_tol" "1e-5" "--hss_abs_tol" "1e-10" "--hss_enable_sync" "--hss_compression_algorithm" "stable" "--hss_d0" "16" "--hss_dd" "4"
+Directory: /home/sorsak/STRUMPACK/test
+"HSS_mpi_19" start time: Jun 23 15:40 CDT
+Output:
+----------------------------------------------------------
+srun: job 2043 queued and waiting for resources
+srun: job 2043 has been allocated resources
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+srun: error: node01: tasks 0-15: Exited with exit code 2
+<end of output>
+Test time =   0.73 sec
+----------------------------------------------------------
+Test Failed.
+"HSS_mpi_19" end time: Jun 23 15:40 CDT
+"HSS_mpi_19" time elapsed: 00:00:00
+----------------------------------------------------------
+
+46/174 Testing: HSS_mpi_20
+46/174 Test: HSS_mpi_20
+Command: "/usr/bin/srun" "-n" "2" "--oversubscribe" "/home/sorsak/STRUMPACK/test/test_HSS_mpi" "U" "200" "--hss_leaf_size" "16" "--hss_rel_tol" "1e-5" "--hss_abs_tol" "1e-10" "--hss_disable_sync" "--hss_compression_algorithm" "stable" "--hss_d0" "16" "--hss_dd" "4"
+Directory: /home/sorsak/STRUMPACK/test
+"HSS_mpi_20" start time: Jun 23 15:40 CDT
+Output:
+----------------------------------------------------------
+srun: job 2044 queued and waiting for resources
+srun: job 2044 has been allocated resources
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+srun: error: node01: tasks 0-1: Exited with exit code 2
+<end of output>
+Test time =   1.17 sec
+----------------------------------------------------------
+Test Failed.
+"HSS_mpi_20" end time: Jun 23 15:40 CDT
+"HSS_mpi_20" time elapsed: 00:00:01
+----------------------------------------------------------
+
+47/174 Testing: HSS_mpi_21
+47/174 Test: HSS_mpi_21
+Command: "/usr/bin/srun" "-n" "9" "--oversubscribe" "/home/sorsak/STRUMPACK/test/test_HSS_mpi" "T" "1" "--hss_leaf_size" "128" "--hss_rel_tol" "1e-5" "--hss_abs_tol" "1e-13" "--hss_disable_sync" "--hss_compression_algorithm" "original" "--hss_d0" "128" "--hss_dd" "4"
+Directory: /home/sorsak/STRUMPACK/test
+"HSS_mpi_21" start time: Jun 23 15:40 CDT
+Output:
+----------------------------------------------------------
+srun: job 2045 queued and waiting for resources
+srun: job 2045 has been allocated resources
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+srun: error: node01: tasks 0-8: Exited with exit code 2
+<end of output>
+Test time =   1.90 sec
+----------------------------------------------------------
+Test Failed.
+"HSS_mpi_21" end time: Jun 23 15:40 CDT
+"HSS_mpi_21" time elapsed: 00:00:01
+----------------------------------------------------------
+
+48/174 Testing: HSS_mpi_22
+48/174 Test: HSS_mpi_22
+Command: "/usr/bin/srun" "-n" "16" "--oversubscribe" "/home/sorsak/STRUMPACK/test/test_HSS_mpi" "L" "500" "--hss_leaf_size" "128" "--hss_rel_tol" "1" "--hss_abs_tol" "1e-10" "--hss_enable_sync" "--hss_compression_algorithm" "original" "--hss_d0" "16" "--hss_dd" "8"
+Directory: /home/sorsak/STRUMPACK/test
+"HSS_mpi_22" start time: Jun 23 15:40 CDT
+Output:
+----------------------------------------------------------
+srun: job 2046 queued and waiting for resources
+srun: job 2046 has been allocated resources
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+srun: error: node01: tasks 0-15: Exited with exit code 2
+<end of output>
+Test time =   1.86 sec
+----------------------------------------------------------
+Test Failed.
+"HSS_mpi_22" end time: Jun 23 15:40 CDT
+"HSS_mpi_22" time elapsed: 00:00:01
+----------------------------------------------------------
+
+49/174 Testing: HSS_mpi_23
+49/174 Test: HSS_mpi_23
+Command: "/usr/bin/srun" "-n" "4" "--oversubscribe" "/home/sorsak/STRUMPACK/test/test_HSS_mpi" "L" "500" "--hss_leaf_size" "3" "--hss_rel_tol" "1e-1" "--hss_abs_tol" "1e-10" "--hss_enable_sync" "--hss_compression_algorithm" "stable" "--hss_d0" "128" "--hss_dd" "8"
+Directory: /home/sorsak/STRUMPACK/test
+"HSS_mpi_23" start time: Jun 23 15:40 CDT
+Output:
+----------------------------------------------------------
+srun: job 2047 queued and waiting for resources
+srun: job 2047 has been allocated resources
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+srun: error: node01: tasks 0-3: Exited with exit code 2
+<end of output>
+Test time =   0.77 sec
+----------------------------------------------------------
+Test Failed.
+"HSS_mpi_23" end time: Jun 23 15:40 CDT
+"HSS_mpi_23" time elapsed: 00:00:00
+----------------------------------------------------------
+
+50/174 Testing: HSS_mpi_24
+50/174 Test: HSS_mpi_24
+Command: "/usr/bin/srun" "-n" "16" "--oversubscribe" "/home/sorsak/STRUMPACK/test/test_HSS_mpi" "L" "1" "--hss_leaf_size" "16" "--hss_rel_tol" "1e-10" "--hss_abs_tol" "1e-13" "--hss_disable_sync" "--hss_compression_algorithm" "original" "--hss_d0" "16" "--hss_dd" "4"
+Directory: /home/sorsak/STRUMPACK/test
+"HSS_mpi_24" start time: Jun 23 15:40 CDT
+Output:
+----------------------------------------------------------
+srun: job 2048 queued and waiting for resources
+srun: job 2048 has been allocated resources
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+slurmstepd: error: execve(): /home/sorsak/STRUMPACK/test/test_HSS_mpi: No such file or directory
+srun: error: node01: tasks 0-15: Exited with exit code 2
+<end of output>
+Test time =   0.86 sec
+----------------------------------------------------------
+Test Failed.
+"HSS_mpi_24" end time: Jun 23 15:40 CDT
+"HSS_mpi_24" time elapsed: 00:00:00
+----------------------------------------------------------
+

@@ -1,0 +1,11 @@
+/home/sorsak/STRUMPACK/examples/CMakeFiles/examples.dir
+/home/sorsak/STRUMPACK/examples/CMakeFiles/testPoisson2d.dir
+/home/sorsak/STRUMPACK/examples/CMakeFiles/testMMdouble.dir
+/home/sorsak/STRUMPACK/examples/CMakeFiles/rebuild_cache.dir
+/home/sorsak/STRUMPACK/examples/CMakeFiles/dexample.dir
+/home/sorsak/STRUMPACK/examples/CMakeFiles/sexample.dir
+/home/sorsak/STRUMPACK/examples/CMakeFiles/testPoisson3d.dir
+/home/sorsak/STRUMPACK/examples/CMakeFiles/cexample.dir
+/home/sorsak/STRUMPACK/examples/CMakeFiles/zexample.dir
+/home/sorsak/STRUMPACK/examples/CMakeFiles/KernelRegression.dir
+/home/sorsak/STRUMPACK/examples/CMakeFiles/edit_cache.dir
